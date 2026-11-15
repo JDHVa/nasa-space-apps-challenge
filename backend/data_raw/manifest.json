@@ -1,0 +1,212 @@
+{
+ "generated_utc": "2026-11-15T20:53:50+00:00",
+ "farms": {
+  "iowa": {
+   "lat": 41.95,
+   "lon": -93.71
+  },
+  "bajio": {
+   "lat": 20.52,
+   "lon": -100.81
+  }
+ },
+ "entries": [
+  {
+   "farm": "iowa",
+   "dataset": "nwis_groundwater",
+   "source": "USGS NWIS site + dv (72019)",
+   "url_template": "https://waterservices.usgs.gov/nwis/dv/",
+   "date_fetched": "2026-11-15T20:23:37+00:00",
+   "status": "failed",
+   "file": "backend/data_raw/iowa/nwis_groundwater.json",
+   "n_records": 0,
+   "notes": "scanned all 363 GW sites within 30 km of point (bbox -94.50,41.50,-93.00,42.50): none has parameter 72019 daily values 1995-2024; gwlevels endpoint returned HTTP 403 from this client",
+   "error": "no site within 30.0 km with 72019 daily data (363 candidates scanned)"
+  },
+  {
+   "farm": "iowa",
+   "dataset": "gaez_v4",
+   "source": "FAO GAEZ v4",
+   "url_template": "",
+   "date_fetched": "2026-11-15T20:19:29+00:00",
+   "status": "skipped",
+   "file": null,
+   "n_records": 0,
+   "notes": "no simple no-auth point REST endpoint found; GAEZ v4 is distributed as rasters via the portal (skipped)"
+  },
+  {
+   "farm": "bajio",
+   "dataset": "power_daily",
+   "source": "NASA POWER",
+   "url_template": "https://power.larc.nasa.gov/api/temporal/daily/point",
+   "date_fetched": "2026-11-15T20:19:29+00:00",
+   "status": "skipped_existing",
+   "file": "backend/demo/bajio_power.json",
+   "n_records": 0,
+   "notes": "already present in backend/demo (bajio_power.json), not re-downloaded"
+  },
+  {
+   "farm": "bajio",
+   "dataset": "power_climatology",
+   "source": "NASA POWER climatology point",
+   "url_template": "https://power.larc.nasa.gov/api/temporal/climatology/point",
+   "date_fetched": "2026-11-15T20:19:29+00:00",
+   "status": "ok",
+   "file": "backend/data_raw/bajio/power_climatology.json",
+   "n_records": 10,
+   "notes": "10 parameters, POWER AG community size_bytes=4288"
+  },
+  {
+   "farm": "bajio",
+   "dataset": "soilgrids",
+   "source": "ISRIC SoilGrids v2.0 point query",
+   "url_template": "https://rest.isric.org/soilgrids/v2.0/properties/query",
+   "date_fetched": "2026-11-15T20:21:28+00:00",
+   "status": "ok",
+   "file": "backend/data_raw/bajio/soilgrids.json",
+   "n_records": 8,
+   "notes": "8 layers (props x depths) size_bytes=8191"
+  },
+  {
+   "farm": "bajio",
+   "dataset": "ssurgo",
+   "source": "USDA NRCS SSURGO",
+   "url_template": "",
+   "date_fetched": "2026-11-15T20:21:28+00:00",
+   "status": "not_requested",
+   "file": null,
+   "n_records": 0,
+   "notes": "task scope limited to iowa"
+  },
+  {
+   "farm": "bajio",
+   "dataset": "cdl_history",
+   "source": "USDA NASS CDL",
+   "url_template": "",
+   "date_fetched": "2026-11-15T20:21:28+00:00",
+   "status": "not_requested",
+   "file": null,
+   "n_records": 0,
+   "notes": "task scope limited to iowa"
+  },
+  {
+   "farm": "bajio",
+   "dataset": "nwis_groundwater",
+   "source": "USGS NWIS",
+   "url_template": "",
+   "date_fetched": "2026-11-15T20:21:28+00:00",
+   "status": "not_requested",
+   "file": null,
+   "n_records": 0,
+   "notes": "task scope limited to iowa"
+  },
+  {
+   "farm": "bajio",
+   "dataset": "gaez_v4",
+   "source": "FAO GAEZ v4",
+   "url_template": "",
+   "date_fetched": "2026-11-15T20:21:28+00:00",
+   "status": "skipped",
+   "file": null,
+   "n_records": 0,
+   "notes": "no simple no-auth point REST endpoint found; GAEZ v4 is distributed as rasters via the portal (skipped)"
+  },
+  {
+   "farm": "iowa",
+   "dataset": "power_daily",
+   "source": "NASA POWER daily point",
+   "url_template": "https://power.larc.nasa.gov/api/temporal/daily/point",
+   "date_fetched": "2026-11-15T20:52:18+00:00",
+   "status": "ok",
+   "file": "backend/data_raw/iowa/power_daily.json",
+   "n_records": 10958,
+   "notes": "10958 days, POWER AG community size_bytes=2563535"
+  },
+  {
+   "farm": "iowa",
+   "dataset": "power_climatology",
+   "source": "NASA POWER climatology point",
+   "url_template": "https://power.larc.nasa.gov/api/temporal/climatology/point",
+   "date_fetched": "2026-11-15T20:52:19+00:00",
+   "status": "ok",
+   "file": "backend/data_raw/iowa/power_climatology.json",
+   "n_records": 10,
+   "notes": "10 parameters, POWER AG community size_bytes=4294"
+  },
+  {
+   "farm": "iowa",
+   "dataset": "soilgrids",
+   "source": "ISRIC SoilGrids v2.0 point query",
+   "url_template": "https://rest.isric.org/soilgrids/v2.0/properties/query",
+   "date_fetched": "2026-11-15T20:52:57+00:00",
+   "status": "ok",
+   "file": "backend/data_raw/iowa/soilgrids.json",
+   "n_records": 8,
+   "notes": "8 layers (props x depths) size_bytes=8153"
+  },
+  {
+   "farm": "iowa",
+   "dataset": "ssurgo",
+   "source": "USDA NRCS SSURGO via Soil Data Access",
+   "url_template": "https://SDMDataAccess.sc.egov.usda.gov/Tabular/post.rest",
+   "date_fetched": "2026-11-15T20:52:58+00:00",
+   "status": "ok",
+   "file": "backend/data_raw/iowa/ssurgo.json",
+   "n_records": 3,
+   "notes": "3 component-horizon rows (point intersection) size_bytes=1547"
+  },
+  {
+   "farm": "iowa",
+   "dataset": "cdl_history",
+   "source": "USDA NASS CDL via CropScape GetCDLValue",
+   "url_template": "https://nassgeodata.gmu.edu/axis2/services/CDLService/GetCDLValue",
+   "date_fetched": "2026-11-15T20:53:50+00:00",
+   "status": "ok",
+   "file": "backend/data_raw/iowa/cdl_history.json",
+   "n_records": 17,
+   "notes": "17/17 years with center crop; 0 sample errors size_bytes=3722"
+  }
+ ],
+ "not_fetched_requires_credentials_or_bulk": [
+  {
+   "source": "NASA SMAP L3/L4",
+   "reason": "Earthdata login required"
+  },
+  {
+   "source": "NASA GPM IMERG",
+   "reason": "Earthdata login required"
+  },
+  {
+   "source": "ECOSTRESS",
+   "reason": "Earthdata login required"
+  },
+  {
+   "source": "GLDAS / NLDAS",
+   "reason": "Earthdata login required"
+  },
+  {
+   "source": "MODIS / Landsat / Sentinel-2",
+   "reason": "Earthdata / Earth Engine credentials required"
+  },
+  {
+   "source": "SRTM",
+   "reason": "Earthdata / Earth Engine credentials required"
+  },
+  {
+   "source": "GEDI",
+   "reason": "Earthdata / Earth Engine credentials required"
+  },
+  {
+   "source": "USDA NASS QuickStats",
+   "reason": "API key required"
+  },
+  {
+   "source": "ERA5",
+   "reason": "Copernicus CDS API key required"
+  },
+  {
+   "source": "PRISM",
+   "reason": "bulk grids, not a point API; not fetched"
+  }
+ ]
+}

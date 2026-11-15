@@ -1,0 +1,2550 @@
+{
+ "search_bbox": "-94.50,41.50,-93.00,42.50",
+ "radius_km": 30.0,
+ "parameter": "72019 depth to water level, feet below land surface (daily mean)",
+ "candidates": [
+  {
+   "site_no": "420134093373201",
+   "station_nm": "83N24W3DAC 56833 2001",
+   "lat": 42.0261111,
+   "lon": -93.6255556,
+   "distance_km": 0.57
+  },
+  {
+   "site_no": "420153093381401",
+   "station_nm": "083N24W03BCB  01288 1940Iowa State University",
+   "lat": 42.0313747,
+   "lon": -93.6374409,
+   "distance_km": 0.63
+  },
+  {
+   "site_no": "420130093380901",
+   "station_nm": "083N24W03CDBB       1982Ames 17",
+   "lat": 42.02498595,
+   "lon": -93.6338297,
+   "distance_km": 0.64
+  },
+  {
+   "site_no": "420141093381601",
+   "station_nm": "083N24W03BCCD           Iowa State University 10",
+   "lat": 42.0280414,
+   "lon": -93.6379965,
+   "distance_km": 0.7
+  },
+  {
+   "site_no": "420143093381801",
+   "station_nm": "083N24W03BCCB       1955Iowa State University 8",
+   "lat": 42.02859695,
+   "lon": -93.638552,
+   "distance_km": 0.72
+  },
+  {
+   "site_no": "420131093381001",
+   "station_nm": "083N24W03CCAB       1978Ames 16",
+   "lat": 42.02526369,
+   "lon": -93.6363298,
+   "distance_km": 0.74
+  },
+  {
+   "site_no": "420139093371601",
+   "station_nm": "083N24W03DAAD       1973Ames 15",
+   "lat": 42.02804159,
+   "lon": -93.6207736,
+   "distance_km": 0.79
+  },
+  {
+   "site_no": "420123093380401",
+   "station_nm": "083N24W03CDC            Lincoln Way LWE-1",
+   "lat": 42.022975,
+   "lon": -93.6344389,
+   "distance_km": 0.86
+  },
+  {
+   "site_no": "420128093371901",
+   "station_nm": "083N24W03DDAC       1968Ames 11",
+   "lat": 42.0244305,
+   "lon": -93.6221626,
+   "distance_km": 0.9
+  },
+  {
+   "site_no": "420140093370701",
+   "station_nm": "83N24W2CBB 53710 1998",
+   "lat": 42.02777778,
+   "lon": -93.6186111,
+   "distance_km": 0.97
+  },
+  {
+   "site_no": "420141093370401",
+   "station_nm": "083N24W02CBBA       1970Ames 14",
+   "lat": 42.0280416,
+   "lon": -93.6179957,
+   "distance_km": 1.02
+  },
+  {
+   "site_no": "420117093371901",
+   "station_nm": "083N24W03DACC 56833 2001Ames 8A",
+   "lat": 42.021375,
+   "lon": -93.6221626,
+   "distance_km": 1.16
+  },
+  {
+   "site_no": "420141093365701",
+   "station_nm": "083N24W02CBAA       1968Ames 12",
+   "lat": 42.0280416,
+   "lon": -93.6160512,
+   "distance_km": 1.17
+  },
+  {
+   "site_no": "420124093370201",
+   "station_nm": "083N24W02CCDC 14427 1962Ames 7",
+   "lat": 42.02331948,
+   "lon": -93.6174402,
+   "distance_km": 1.28
+  },
+  {
+   "site_no": "420141093363301",
+   "station_nm": "083N24W02CAAB 18638 1966Ames 10",
+   "lat": 42.02804168,
+   "lon": -93.6127177,
+   "distance_km": 1.44
+  },
+  {
+   "site_no": "420148093385001",
+   "station_nm": "083N24W03BCBB       1960Iowa State University 9",
+   "lat": 42.0299857,
+   "lon": -93.6474412,
+   "distance_km": 1.44
+  },
+  {
+   "site_no": "420125093365301",
+   "station_nm": "083N24W02CDCB       1952Ames 6",
+   "lat": 42.02359728,
+   "lon": -93.6143845,
+   "distance_km": 1.47
+  },
+  {
+   "site_no": "420130093385301",
+   "station_nm": "083N24W04DCB        1897Iowa State University",
+   "lat": 42.0249858,
+   "lon": -93.6482746,
+   "distance_km": 1.61
+  },
+  {
+   "site_no": "420141093363601",
+   "station_nm": "083N24W02DBBB 18802 1966Ames 9",
+   "lat": 42.0280417,
+   "lon": -93.6102177,
+   "distance_km": 1.65
+  },
+  {
+   "site_no": "420126093364001",
+   "station_nm": "083N24W02CDDA       1968Ames 13",
+   "lat": 42.02387509,
+   "lon": -93.6113288,
+   "distance_km": 1.69
+  },
+  {
+   "site_no": "420132093362601",
+   "station_nm": "083N24W02DBCD 03173 1947Ames 5",
+   "lat": 42.02665285,
+   "lon": -93.6088287,
+   "distance_km": 1.79
+  },
+  {
+   "site_no": "420130093362201",
+   "station_nm": "083N24W02DCAA",
+   "lat": 42.0249862,
+   "lon": -93.6063286,
+   "distance_km": 2.03
+  },
+  {
+   "site_no": "420137093361501",
+   "station_nm": "083N24W02DABC 02268 1935Ames 4",
+   "lat": 42.02554178,
+   "lon": -93.6060509,
+   "distance_km": 2.04
+  },
+  {
+   "site_no": "420246093370501",
+   "station_nm": "084N24W35BBC  02185 1945",
+   "lat": 42.0460969,
+   "lon": -93.6182733,
+   "distance_km": 2.04
+  },
+  {
+   "site_no": "420215093362401",
+   "station_nm": "084N24W35DCA            Ames Cemetery CEM-1",
+   "lat": 42.03744444,
+   "lon": -93.6066028,
+   "distance_km": 2.1
+  },
+  {
+   "site_no": "420219093361301",
+   "station_nm": "084N24W36CBC        1996NAWQA City of Ames",
+   "lat": 42.0386111,
+   "lon": -93.6036944,
+   "distance_km": 2.37
+  },
+  {
+   "site_no": "420218093361001",
+   "station_nm": "084N24W35DAD        2008River Valley Park RV-24",
+   "lat": 42.03846944,
+   "lon": -93.6028778,
+   "distance_km": 2.43
+  },
+  {
+   "site_no": "420218093361002",
+   "station_nm": "084N24W35DAD        2008River Valley Park RV-42",
+   "lat": 42.0384583,
+   "lon": -93.6028472,
+   "distance_km": 2.43
+  },
+  {
+   "site_no": "420218093361003",
+   "station_nm": "084N24W35DAD        2008River Valley Park RV-69",
+   "lat": 42.03844444,
+   "lon": -93.602825,
+   "distance_km": 2.43
+  },
+  {
+   "site_no": "420218093361004",
+   "station_nm": "084N24W35DAD        2008River Valley Park RV-97",
+   "lat": 42.03841667,
+   "lon": -93.6028083,
+   "distance_km": 2.43
+  },
+  {
+   "site_no": "420101093361701",
+   "station_nm": "83N24W11ADC 35479 1986",
+   "lat": 42.01694444,
+   "lon": -93.6047222,
+   "distance_km": 2.54
+  },
+  {
+   "site_no": "420109093360801",
+   "station_nm": "083N24W11ADA            SE Well Field SE-1",
+   "lat": 42.0190972,
+   "lon": -93.6022278,
+   "distance_km": 2.59
+  },
+  {
+   "site_no": "420116093355901",
+   "station_nm": "83N24W12BBB 30984 1989",
+   "lat": 42.0211111,
+   "lon": -93.5997222,
+   "distance_km": 2.69
+  },
+  {
+   "site_no": "420100093360501",
+   "station_nm": "83N24W11ADD 30099 1986",
+   "lat": 42.01666667,
+   "lon": -93.6013889,
+   "distance_km": 2.79
+  },
+  {
+   "site_no": "420106093355901",
+   "station_nm": "83N24W12BCB 30983 1989",
+   "lat": 42.0183333,
+   "lon": -93.5997222,
+   "distance_km": 2.82
+  },
+  {
+   "site_no": "420053093355901",
+   "station_nm": "83N24W12CBB 30981 1988",
+   "lat": 42.0147222,
+   "lon": -93.5997222,
+   "distance_km": 3.02
+  },
+  {
+   "site_no": "420233093353801",
+   "station_nm": "084N24W36BDC  04434 1950",
+   "lat": 42.0424861,
+   "lon": -93.5941058,
+   "distance_km": 3.27
+  },
+  {
+   "site_no": "420320093392701",
+   "station_nm": "084N24W28BCC  03936 1949",
+   "lat": 42.05554075,
+   "lon": -93.6577192,
+   "distance_km": 3.65
+  },
+  {
+   "site_no": "420014093392501",
+   "station_nm": "083N24W16BCB  03798 1949",
+   "lat": 42.0038749,
+   "lon": -93.657164,
+   "distance_km": 3.67
+  },
+  {
+   "site_no": "420350093380101",
+   "station_nm": "084N24W22CDC        2006Ada Hayden Park C-15",
+   "lat": 42.0637611,
+   "lon": -93.6335444,
+   "distance_km": 3.77
+  },
+  {
+   "site_no": "420350093380102",
+   "station_nm": "084N24W22CDC        2006Ada Hayden Park C-35",
+   "lat": 42.06376389,
+   "lon": -93.633525,
+   "distance_km": 3.77
+  },
+  {
+   "site_no": "420350093380103",
+   "station_nm": "084N24W22CDC        2006Ada Hayden Park C-70",
+   "lat": 42.06376944,
+   "lon": -93.6335028,
+   "distance_km": 3.77
+  },
+  {
+   "site_no": "420003093392701",
+   "station_nm": "083N24W16CBBB 03588 1948",
+   "lat": 42.0008194,
+   "lon": -93.6577197,
+   "distance_km": 3.97
+  },
+  {
+   "site_no": "420005093360001",
+   "station_nm": "83N24W13BCC 63795 2007",
+   "lat": 42.00138889,
+   "lon": -93.6,
+   "distance_km": 4.03
+  },
+  {
+   "site_no": "420013093354701",
+   "station_nm": "83N24W13BCA 43196 1998",
+   "lat": 42.0036111,
+   "lon": -93.5963889,
+   "distance_km": 4.04
+  },
+  {
+   "site_no": "420008093355101",
+   "station_nm": "083N24W13BCD            Sports Complex SCMW-1",
+   "lat": 42.00211389,
+   "lon": -93.5973833,
+   "distance_km": 4.11
+  },
+  {
+   "site_no": "420402093372501",
+   "station_nm": "084N24W22DAC        2006Ada Hayden Park E-105",
+   "lat": 42.06734444,
+   "lon": -93.6234972,
+   "distance_km": 4.19
+  },
+  {
+   "site_no": "415959093355401",
+   "station_nm": "83N24W13CBB 63796 2006",
+   "lat": 41.9997222,
+   "lon": -93.5983333,
+   "distance_km": 4.26
+  },
+  {
+   "site_no": "420002093354301",
+   "station_nm": "83N24W13CAB 43197 1998",
+   "lat": 42.00055556,
+   "lon": -93.5952778,
+   "distance_km": 4.35
+  },
+  {
+   "site_no": "420416093375001",
+   "station_nm": "084N24W22BDD        2006Ada Hayden Park B-13",
+   "lat": 42.0710333,
+   "lon": -93.6304222,
+   "distance_km": 4.56
+  },
+  {
+   "site_no": "420416093375002",
+   "station_nm": "084N24W22BDD        2006Ada Hayden Park B-35",
+   "lat": 42.0710472,
+   "lon": -93.6304222,
+   "distance_km": 4.56
+  },
+  {
+   "site_no": "420416093375003",
+   "station_nm": "084N24W22BDD        2006Ada Hayden Park B-64",
+   "lat": 42.0710222,
+   "lon": -93.6304222,
+   "distance_km": 4.56
+  },
+  {
+   "site_no": "415940093392701",
+   "station_nm": "083N24W16CCC  03585 1947",
+   "lat": 41.99443059,
+   "lon": -93.6577197,
+   "distance_km": 4.57
+  },
+  {
+   "site_no": "415952093353701",
+   "station_nm": "83N24W13CAC 63797 2007",
+   "lat": 41.99777778,
+   "lon": -93.5936111,
+   "distance_km": 4.68
+  },
+  {
+   "site_no": "420424093372901",
+   "station_nm": "084N24W22ADB        2006Ada Hayden Park A-15",
+   "lat": 42.0732972,
+   "lon": -93.6246528,
+   "distance_km": 4.83
+  },
+  {
+   "site_no": "420125093414001",
+   "station_nm": "83N24W6CCD 57062 1950",
+   "lat": 42.0236111,
+   "lon": -93.6944444,
+   "distance_km": 5.37
+  },
+  {
+   "site_no": "415902093393501",
+   "station_nm": "083N24W20DAD  02187 1945Ames Ag Experimental Sta",
+   "lat": 41.98387509,
+   "lon": -93.659942,
+   "distance_km": 5.69
+  },
+  {
+   "site_no": "415842093373801",
+   "station_nm": "083N24W27ABB  02952 1947",
+   "lat": 41.97831986,
+   "lon": -93.6274408,
+   "distance_km": 5.75
+  },
+  {
+   "site_no": "420422093401001",
+   "station_nm": "84N24W20BDA 57070",
+   "lat": 42.07277778,
+   "lon": -93.6694444,
+   "distance_km": 5.76
+  },
+  {
+   "site_no": "420118093332101",
+   "station_nm": "083N23W08CCD  30959 1947",
+   "lat": 42.02165347,
+   "lon": -93.556049,
+   "distance_km": 6.18
+  },
+  {
+   "site_no": "415817093382501",
+   "station_nm": "083N24W28AAA  03788 1949",
+   "lat": 41.9713753,
+   "lon": -93.6404968,
+   "distance_km": 6.58
+  },
+  {
+   "site_no": "415933093340101",
+   "station_nm": "83N23W19ABA 40986 1991",
+   "lat": 41.9925,
+   "lon": -93.5669444,
+   "distance_km": 6.67
+  },
+  {
+   "site_no": "415812093381701",
+   "station_nm": "083N24W27CBB  02272 1945",
+   "lat": 41.96998648,
+   "lon": -93.6382745,
+   "distance_km": 6.71
+  },
+  {
+   "site_no": "415919093341001",
+   "station_nm": "083N23W19ACBC 68383 2008Nevada 8",
+   "lat": 41.9886111,
+   "lon": -93.5696111,
+   "distance_km": 6.79
+  },
+  {
+   "site_no": "415923093340101",
+   "station_nm": "83N23W19ACA 32198 1991",
+   "lat": 41.9897222,
+   "lon": -93.5669444,
+   "distance_km": 6.87
+  },
+  {
+   "site_no": "420004093332201",
+   "station_nm": "083N23W17BCD  02662 1946",
+   "lat": 42.00109818,
+   "lon": -93.556327,
+   "distance_km": 6.88
+  },
+  {
+   "site_no": "415914093340101",
+   "station_nm": "83N23W19ACD 48294",
+   "lat": 41.9872222,
+   "lon": -93.5669444,
+   "distance_km": 7.05
+  },
+  {
+   "site_no": "415757093381201",
+   "station_nm": "083N24W27CCC  02163 1945",
+   "lat": 41.96581985,
+   "lon": -93.6368856,
+   "distance_km": 7.16
+  },
+  {
+   "site_no": "415759093384601",
+   "station_nm": "083N24W28DCAC       1992USGS WC-26-3",
+   "lat": 41.9663753,
+   "lon": -93.6463304,
+   "distance_km": 7.2
+  },
+  {
+   "site_no": "415759093384602",
+   "station_nm": "083N24W28DCAC       1992USGS WC-26-6",
+   "lat": 41.9663753,
+   "lon": -93.6463304,
+   "distance_km": 7.2
+  },
+  {
+   "site_no": "415759093384603",
+   "station_nm": "083N24W28DCAC       1992USGS WC-26-16",
+   "lat": 41.9663753,
+   "lon": -93.6463304,
+   "distance_km": 7.2
+  },
+  {
+   "site_no": "415808093393301",
+   "station_nm": "083N24W29DADD       1992USGS WC-31-6",
+   "lat": 41.96887519,
+   "lon": -93.6593864,
+   "distance_km": 7.22
+  },
+  {
+   "site_no": "415808093393302",
+   "station_nm": "083N24W29DADD       1992USGS WC-31-14",
+   "lat": 41.96887519,
+   "lon": -93.6593864,
+   "distance_km": 7.22
+  },
+  {
+   "site_no": "420533093361501",
+   "station_nm": "084N24W11DDCC 00454 1938",
+   "lat": 42.09248525,
+   "lon": -93.6043835,
+   "distance_km": 7.26
+  },
+  {
+   "site_no": "415808093394701",
+   "station_nm": "083N24W29DACC       1992USGS WC-30-4",
+   "lat": 41.96887516,
+   "lon": -93.6632755,
+   "distance_km": 7.33
+  },
+  {
+   "site_no": "415808093394702",
+   "station_nm": "083N24W29DACC       1992USGS WC-30-8",
+   "lat": 41.96887516,
+   "lon": -93.6632755,
+   "distance_km": 7.33
+  },
+  {
+   "site_no": "415808093394703",
+   "station_nm": "083N24W29DACC       1992USGS WC-30-15",
+   "lat": 41.96887516,
+   "lon": -93.6632755,
+   "distance_km": 7.33
+  },
+  {
+   "site_no": "415933093421001",
+   "station_nm": "083N25W24AABC       1992USGS WC-38-3",
+   "lat": 41.9924857,
+   "lon": -93.7029992,
+   "distance_km": 7.33
+  },
+  {
+   "site_no": "415933093421002",
+   "station_nm": "083N25W24AABC       1992USGS WC-38-6",
+   "lat": 41.9924857,
+   "lon": -93.7029992,
+   "distance_km": 7.33
+  },
+  {
+   "site_no": "415933093421003",
+   "station_nm": "083N25W24AABC       1992USGS WC-38-17",
+   "lat": 41.9924857,
+   "lon": -93.7029992,
+   "distance_km": 7.33
+  },
+  {
+   "site_no": "415754093385301",
+   "station_nm": "083N24W28DCCC       1991USGS WC-1-6",
+   "lat": 41.9649864,
+   "lon": -93.6482749,
+   "distance_km": 7.39
+  },
+  {
+   "site_no": "415754093385302",
+   "station_nm": "083N24W28DCCC       1991USGS WC-1-9",
+   "lat": 41.9649864,
+   "lon": -93.6482749,
+   "distance_km": 7.39
+  },
+  {
+   "site_no": "415754093385303",
+   "station_nm": "083N24W28DCCC       1991USGS WC-1-14",
+   "lat": 41.9649864,
+   "lon": -93.6482749,
+   "distance_km": 7.39
+  },
+  {
+   "site_no": "415756093391001",
+   "station_nm": "083N24W28CDCC       1991USGS WC-2-4",
+   "lat": 41.9655419,
+   "lon": -93.6529973,
+   "distance_km": 7.42
+  },
+  {
+   "site_no": "415756093391002",
+   "station_nm": "083N24W28CDCC       1991USGS WC-2-6",
+   "lat": 41.9655419,
+   "lon": -93.6529973,
+   "distance_km": 7.42
+  },
+  {
+   "site_no": "415756093391003",
+   "station_nm": "083N24W28CDCC       1991USGS WC-2-9",
+   "lat": 41.9655419,
+   "lon": -93.6529973,
+   "distance_km": 7.42
+  },
+  {
+   "site_no": "415756093391004",
+   "station_nm": "083N24W28CDCC       1991USGS WC-2-14",
+   "lat": 41.9655419,
+   "lon": -93.6529973,
+   "distance_km": 7.42
+  },
+  {
+   "site_no": "415756093391005",
+   "station_nm": "083N24W28CDCC       1991USGS WC-2-21",
+   "lat": 41.9655419,
+   "lon": -93.6529973,
+   "distance_km": 7.42
+  },
+  {
+   "site_no": "415807093395401",
+   "station_nm": "083N24W29DBDC       1992USGS WC-29-3",
+   "lat": 41.96859737,
+   "lon": -93.66522,
+   "distance_km": 7.42
+  },
+  {
+   "site_no": "415807093395402",
+   "station_nm": "083N24W29DBDC       1992USGS WC-29-9",
+   "lat": 41.96859737,
+   "lon": -93.66522,
+   "distance_km": 7.42
+  },
+  {
+   "site_no": "415807093395403",
+   "station_nm": "083N24W29DBDC       1992USGS WC-29-19",
+   "lat": 41.96859737,
+   "lon": -93.66522,
+   "distance_km": 7.42
+  },
+  {
+   "site_no": "415754093390701",
+   "station_nm": "083N24W28CDCD       1991USGS WC-3-4",
+   "lat": 41.96498639,
+   "lon": -93.6521639,
+   "distance_km": 7.46
+  },
+  {
+   "site_no": "415754093390702",
+   "station_nm": "083N24W28CDCD       1991USGS WC-3-6",
+   "lat": 41.96498639,
+   "lon": -93.6521639,
+   "distance_km": 7.46
+  },
+  {
+   "site_no": "415754093390703",
+   "station_nm": "083N24W28CDCD       1991USGS WC-3-11",
+   "lat": 41.96498639,
+   "lon": -93.6521639,
+   "distance_km": 7.46
+  },
+  {
+   "site_no": "415757093360601",
+   "station_nm": "083N24W35AAA  02541 1946",
+   "lat": 41.96582015,
+   "lon": -93.6018843,
+   "distance_km": 7.51
+  },
+  {
+   "site_no": "415758093393301",
+   "station_nm": "083N24W29DDDA       1991USGS WC-15-5",
+   "lat": 41.9660974,
+   "lon": -93.6593864,
+   "distance_km": 7.51
+  },
+  {
+   "site_no": "415758093393302",
+   "station_nm": "083N24W29DDDA       1991USGS WC-15-9",
+   "lat": 41.9660974,
+   "lon": -93.6593864,
+   "distance_km": 7.51
+  },
+  {
+   "site_no": "415758093393303",
+   "station_nm": "083N24W29DDDA       1991USGS WC-15-16",
+   "lat": 41.9660974,
+   "lon": -93.6593864,
+   "distance_km": 7.51
+  },
+  {
+   "site_no": "415806093400001",
+   "station_nm": "083N24W29DCBA       1991USGS WC-17-4",
+   "lat": 41.96831957,
+   "lon": -93.6668867,
+   "distance_km": 7.51
+  },
+  {
+   "site_no": "415806093400002",
+   "station_nm": "083N24W29DCBA       1991USGS WC-17-6",
+   "lat": 41.96831957,
+   "lon": -93.6668867,
+   "distance_km": 7.51
+  },
+  {
+   "site_no": "415806093400003",
+   "station_nm": "083N24W29DCBA       1991USGS WC-17-9",
+   "lat": 41.96831957,
+   "lon": -93.6668867,
+   "distance_km": 7.51
+  },
+  {
+   "site_no": "415806093400004",
+   "station_nm": "083N24W29DCBA       1991USGS WC-17-14",
+   "lat": 41.96831957,
+   "lon": -93.6668867,
+   "distance_km": 7.51
+  },
+  {
+   "site_no": "415759093394501",
+   "station_nm": "083N24W29DDCB       1991USGS WC-19-4",
+   "lat": 41.96637518,
+   "lon": -93.6627199,
+   "distance_km": 7.57
+  },
+  {
+   "site_no": "415759093394502",
+   "station_nm": "083N24W29DDCB       1991USGS WC-19-6",
+   "lat": 41.96637518,
+   "lon": -93.6627199,
+   "distance_km": 7.57
+  },
+  {
+   "site_no": "415759093394503",
+   "station_nm": "083N24W29DDCB       1991USGS WC-19-9",
+   "lat": 41.96637518,
+   "lon": -93.6627199,
+   "distance_km": 7.57
+  },
+  {
+   "site_no": "415759093394504",
+   "station_nm": "083N24W29DDCB       1991USGS WC-19-14",
+   "lat": 41.96637518,
+   "lon": -93.6627199,
+   "distance_km": 7.57
+  },
+  {
+   "site_no": "415801093395501",
+   "station_nm": "083N24W29DCAC       1992USGS WC-32-4",
+   "lat": 41.9669307,
+   "lon": -93.6654978,
+   "distance_km": 7.6
+  },
+  {
+   "site_no": "415801093395502",
+   "station_nm": "083N24W29DCAC       1992USGS WC-32-10",
+   "lat": 41.9669307,
+   "lon": -93.6654978,
+   "distance_km": 7.6
+  },
+  {
+   "site_no": "415801093395503",
+   "station_nm": "083N24W29DCAC       1992USGS WC-32-16",
+   "lat": 41.9669307,
+   "lon": -93.6654978,
+   "distance_km": 7.6
+  },
+  {
+   "site_no": "415756093393901",
+   "station_nm": "083N24W29DDCD       1992USGS WC-34-5",
+   "lat": 41.96554187,
+   "lon": -93.6610532,
+   "distance_km": 7.61
+  },
+  {
+   "site_no": "415756093393902",
+   "station_nm": "083N24W29DDCD       1992USGS WC-34-16",
+   "lat": 41.96554187,
+   "lon": -93.6610532,
+   "distance_km": 7.61
+  },
+  {
+   "site_no": "415756093393903",
+   "station_nm": "083N24W29DDCD       1992USGS WC-34-30",
+   "lat": 41.96554187,
+   "lon": -93.6610532,
+   "distance_km": 7.61
+  },
+  {
+   "site_no": "415754093393901",
+   "station_nm": "083N24W29DDCD       1992USGS WC-35-3",
+   "lat": 41.9649863,
+   "lon": -93.6610532,
+   "distance_km": 7.67
+  },
+  {
+   "site_no": "415754093393902",
+   "station_nm": "083N24W29DDCD       1992USGS WC-35-6",
+   "lat": 41.9649863,
+   "lon": -93.6610532,
+   "distance_km": 7.67
+  },
+  {
+   "site_no": "415754093393903",
+   "station_nm": "083N24W29DDCD       1992USGS WC-35-17",
+   "lat": 41.9649863,
+   "lon": -93.6610532,
+   "distance_km": 7.67
+  },
+  {
+   "site_no": "415913093421001",
+   "station_nm": "083N25W24ADCC       1992USGS WC-37-3",
+   "lat": 41.9869302,
+   "lon": -93.7029992,
+   "distance_km": 7.7
+  },
+  {
+   "site_no": "415913093421002",
+   "station_nm": "083N25W24ADCC       1992USGS WC-37-6",
+   "lat": 41.9869302,
+   "lon": -93.7029992,
+   "distance_km": 7.7
+  },
+  {
+   "site_no": "415913093421003",
+   "station_nm": "083N25W24ADCC       1992USGS WC-37-17",
+   "lat": 41.9869302,
+   "lon": -93.7029992,
+   "distance_km": 7.7
+  },
+  {
+   "site_no": "415755093400101",
+   "station_nm": "083N24W29DCCC       1992USGS WC-33-6",
+   "lat": 41.965264,
+   "lon": -93.6671645,
+   "distance_km": 7.83
+  },
+  {
+   "site_no": "415755093400102",
+   "station_nm": "083N24W29DCCC       1992USGS WC-33-16",
+   "lat": 41.965264,
+   "lon": -93.6671645,
+   "distance_km": 7.83
+  },
+  {
+   "site_no": "415847093421601",
+   "station_nm": "083N25W24DCDC       1992USGS WC-36-8",
+   "lat": 41.97970805,
+   "lon": -93.7046659,
+   "distance_km": 8.33
+  },
+  {
+   "site_no": "415847093421602",
+   "station_nm": "083N25W24DCDC       1992USGS WC-36-13",
+   "lat": 41.97970805,
+   "lon": -93.7046659,
+   "distance_km": 8.33
+  },
+  {
+   "site_no": "415847093421603",
+   "station_nm": "083N25W24DCDC       1992USGS WC-36-24",
+   "lat": 41.97970805,
+   "lon": -93.7046659,
+   "distance_km": 8.33
+  },
+  {
+   "site_no": "415748093405601",
+   "station_nm": "083N24W31AABC       1991USGS WC-6-9",
+   "lat": 41.96331948,
+   "lon": -93.6824429,
+   "distance_km": 8.59
+  },
+  {
+   "site_no": "415748093405602",
+   "station_nm": "083N24W31AABC       1991USGS WC-6-19",
+   "lat": 41.96331948,
+   "lon": -93.6824429,
+   "distance_km": 8.59
+  },
+  {
+   "site_no": "420628093390001",
+   "station_nm": "084N24W04CDDD 39922 1914Gilbert 2",
+   "lat": 42.1077622,
+   "lon": -93.6502184,
+   "distance_km": 8.81
+  },
+  {
+   "site_no": "415809093415501",
+   "station_nm": "083N25W25DADD       1991USGS WC-9-4",
+   "lat": 41.9691526,
+   "lon": -93.6988323,
+   "distance_km": 8.84
+  },
+  {
+   "site_no": "415809093415502",
+   "station_nm": "083N25W25DADD       1991USGS WC-9-7",
+   "lat": 41.9691526,
+   "lon": -93.6988323,
+   "distance_km": 8.84
+  },
+  {
+   "site_no": "415809093415503",
+   "station_nm": "083N25W25DADD       1991USGS WC-9-13",
+   "lat": 41.9691526,
+   "lon": -93.6988323,
+   "distance_km": 8.84
+  },
+  {
+   "site_no": "415752093413101",
+   "station_nm": "083N24W31BABB       1991USGS WC-4-9",
+   "lat": 41.9644305,
+   "lon": -93.6921654,
+   "distance_km": 8.92
+  },
+  {
+   "site_no": "415752093413102",
+   "station_nm": "083N24W31BABB       1991USGS WC-4-16",
+   "lat": 41.9644305,
+   "lon": -93.6921654,
+   "distance_km": 8.92
+  },
+  {
+   "site_no": "415752093413103",
+   "station_nm": "083N24W31BABB       1992USGS WC-4-32",
+   "lat": 41.9644305,
+   "lon": -93.6921654,
+   "distance_km": 8.92
+  },
+  {
+   "site_no": "415752093413104",
+   "station_nm": "083N24W31BABB       1992USGS WC-4-30",
+   "lat": 41.9644305,
+   "lon": -93.6921654,
+   "distance_km": 8.92
+  },
+  {
+   "site_no": "415752093413105",
+   "station_nm": "083N24W31BABB       1992USGS WC-4-46",
+   "lat": 41.9644305,
+   "lon": -93.6921654,
+   "distance_km": 8.92
+  },
+  {
+   "site_no": "415814093421001",
+   "station_nm": "083N25W25DABC       1991USGS WC-10-5",
+   "lat": 41.97054147,
+   "lon": -93.7029992,
+   "distance_km": 8.95
+  },
+  {
+   "site_no": "415814093421002",
+   "station_nm": "083N25W25DABC       1991USGS WC-10-10",
+   "lat": 41.97054147,
+   "lon": -93.7029992,
+   "distance_km": 8.95
+  },
+  {
+   "site_no": "415814093421003",
+   "station_nm": "083N25W25DABC       1991USGS WC-10-17",
+   "lat": 41.97054147,
+   "lon": -93.7029992,
+   "distance_km": 8.95
+  },
+  {
+   "site_no": "415801093415401",
+   "station_nm": "083N25W25DDAD       1991USGS WC-7-6",
+   "lat": 41.9669304,
+   "lon": -93.6985546,
+   "distance_km": 9.02
+  },
+  {
+   "site_no": "415801093415402",
+   "station_nm": "083N25W25DDAD       1991USGS WC-7-9",
+   "lat": 41.9669304,
+   "lon": -93.6985546,
+   "distance_km": 9.02
+  },
+  {
+   "site_no": "415801093415403",
+   "station_nm": "083N25W25DDAD       1991USGS WC-7-14",
+   "lat": 41.9669304,
+   "lon": -93.6985546,
+   "distance_km": 9.02
+  },
+  {
+   "site_no": "415801093415404",
+   "station_nm": "083N25W25DDAD       1991USGS WC-7-21",
+   "lat": 41.9669304,
+   "lon": -93.6985546,
+   "distance_km": 9.02
+  },
+  {
+   "site_no": "415726093404401",
+   "station_nm": "083N24W31ADDD       1991USGS WC-13-18",
+   "lat": 41.9572084,
+   "lon": -93.6791094,
+   "distance_km": 9.05
+  },
+  {
+   "site_no": "415726093404402",
+   "station_nm": "083N24W31ADDD       1991USGS WC-13-24",
+   "lat": 41.9572084,
+   "lon": -93.6791094,
+   "distance_km": 9.05
+  },
+  {
+   "site_no": "415726093404403",
+   "station_nm": "083N24W31ADDD       1991USGS WC-13-6",
+   "lat": 41.9572084,
+   "lon": -93.6791094,
+   "distance_km": 9.05
+  },
+  {
+   "site_no": "415804093421001",
+   "station_nm": "083N25W25DDBB       1991USGS WC-11-6",
+   "lat": 41.9677637,
+   "lon": -93.7029992,
+   "distance_km": 9.18
+  },
+  {
+   "site_no": "415804093421002",
+   "station_nm": "083N25W25DDBB       1991USGS WC-11-10",
+   "lat": 41.9677637,
+   "lon": -93.7029992,
+   "distance_km": 9.18
+  },
+  {
+   "site_no": "415804093421003",
+   "station_nm": "083N25W25DDBB       1991USGS WC-11-15",
+   "lat": 41.9677637,
+   "lon": -93.7029992,
+   "distance_km": 9.18
+  },
+  {
+   "site_no": "415739093413101",
+   "station_nm": "083N24W31BDBB       1991USGS WC-25-7",
+   "lat": 41.9608194,
+   "lon": -93.6921654,
+   "distance_km": 9.25
+  },
+  {
+   "site_no": "415658093395401",
+   "station_nm": "082N24W05ABA  00199 1939Kelley 1",
+   "lat": 41.95054195,
+   "lon": -93.6635533,
+   "distance_km": 9.26
+  },
+  {
+   "site_no": "415726093410701",
+   "station_nm": "083N24W31DBAB       1991USGS WC-14-11",
+   "lat": 41.95720839,
+   "lon": -93.6854985,
+   "distance_km": 9.3
+  },
+  {
+   "site_no": "415726093410702",
+   "station_nm": "083N24W31ACDD       1991USGS WC-14-16",
+   "lat": 41.95720839,
+   "lon": -93.6854985,
+   "distance_km": 9.3
+  },
+  {
+   "site_no": "415726093410703",
+   "station_nm": "083N24W31ACDD       1991USGS WC-14-6",
+   "lat": 41.95720839,
+   "lon": -93.6854985,
+   "distance_km": 9.3
+  },
+  {
+   "site_no": "415704093352701",
+   "station_nm": "083N24W36CDD  04327 1950",
+   "lat": 41.95109808,
+   "lon": -93.5910506,
+   "distance_km": 9.35
+  },
+  {
+   "site_no": "415755093420701",
+   "station_nm": "083N25W25DDCC       1991USGS WC-5-14",
+   "lat": 41.9652637,
+   "lon": -93.7021658,
+   "distance_km": 9.35
+  },
+  {
+   "site_no": "415755093420702",
+   "station_nm": "083N25W25DDCC       1991USGS WC-5-6",
+   "lat": 41.9652637,
+   "lon": -93.7021658,
+   "distance_km": 9.35
+  },
+  {
+   "site_no": "420626093403901",
+   "station_nm": "84N24W5CCC 59781 2004",
+   "lat": 42.1072222,
+   "lon": -93.6775,
+   "distance_km": 9.44
+  },
+  {
+   "site_no": "420626093404101",
+   "station_nm": "084N24W05CCCC 39923 1972Gilbert 3",
+   "lat": 42.10720629,
+   "lon": -93.678275,
+   "distance_km": 9.46
+  },
+  {
+   "site_no": "415729093413101",
+   "station_nm": "083N24W31BDCC       1991USGS WC-18-9",
+   "lat": 41.95804166,
+   "lon": -93.6921654,
+   "distance_km": 9.51
+  },
+  {
+   "site_no": "415742093415601",
+   "station_nm": "083N25W36AADD       1991USGS WC-12-10",
+   "lat": 41.96165268,
+   "lon": -93.6991101,
+   "distance_km": 9.51
+  },
+  {
+   "site_no": "415742093415602",
+   "station_nm": "083N25W36AADD       1991USGS WC-12-16",
+   "lat": 41.96165268,
+   "lon": -93.6991101,
+   "distance_km": 9.51
+  },
+  {
+   "site_no": "415646093362201",
+   "station_nm": "082N24W02ACAA       1992USGS WC-27-15",
+   "lat": 41.94609799,
+   "lon": -93.6063289,
+   "distance_km": 9.53
+  },
+  {
+   "site_no": "415646093362202",
+   "station_nm": "082N24W02ACAA       1992USGS WC-27-20",
+   "lat": 41.94609799,
+   "lon": -93.6063289,
+   "distance_km": 9.53
+  },
+  {
+   "site_no": "415646093362203",
+   "station_nm": "082N24W02ACAA       1992USGS WC-27-30",
+   "lat": 41.94609799,
+   "lon": -93.6063289,
+   "distance_km": 9.53
+  },
+  {
+   "site_no": "420552093420301",
+   "station_nm": "084N25W12CBB  08542 1957",
+   "lat": 42.0977617,
+   "lon": -93.7010537,
+   "distance_km": 9.55
+  },
+  {
+   "site_no": "415642093362801",
+   "station_nm": "082N24W02ACCA       1992USGS WC-28-7",
+   "lat": 41.94498687,
+   "lon": -93.6079956,
+   "distance_km": 9.63
+  },
+  {
+   "site_no": "415642093362802",
+   "station_nm": "082N24W02ACCA       1992USGS WC-28-11",
+   "lat": 41.94498687,
+   "lon": -93.6079956,
+   "distance_km": 9.63
+  },
+  {
+   "site_no": "415642093362803",
+   "station_nm": "082N24W02ACCA       1992USGS WC-28-18",
+   "lat": 41.94498687,
+   "lon": -93.6079956,
+   "distance_km": 9.63
+  },
+  {
+   "site_no": "415730093415501",
+   "station_nm": "083N25W36ADDD       1991USGS WC-8-14",
+   "lat": 41.95831938,
+   "lon": -93.6988324,
+   "distance_km": 9.79
+  },
+  {
+   "site_no": "415730093415502",
+   "station_nm": "083N25W36ADDD       1991USGS WC-8-19",
+   "lat": 41.95831938,
+   "lon": -93.6988324,
+   "distance_km": 9.79
+  },
+  {
+   "site_no": "415740093422601",
+   "station_nm": "083N25W36ACBB       1991USGS WC-24-9",
+   "lat": 41.96109706,
+   "lon": -93.7074438,
+   "distance_km": 9.98
+  },
+  {
+   "site_no": "415740093422602",
+   "station_nm": "083N25W36ACBB       1991USGS WC-24-16",
+   "lat": 41.96109706,
+   "lon": -93.7074438,
+   "distance_km": 9.98
+  },
+  {
+   "site_no": "415747093424601",
+   "station_nm": "083N25W36BBDA       1991USGS WC-22-6",
+   "lat": 41.96304144,
+   "lon": -93.7129995,
+   "distance_km": 10.12
+  },
+  {
+   "site_no": "415747093424602",
+   "station_nm": "083N25W36BBDA       1991USGS WC-22-14",
+   "lat": 41.96304144,
+   "lon": -93.7129995,
+   "distance_km": 10.12
+  },
+  {
+   "site_no": "415728093422701",
+   "station_nm": "083N25W36ACCC       1991USGS WC-23-9",
+   "lat": 41.95776375,
+   "lon": -93.7077216,
+   "distance_km": 10.28
+  },
+  {
+   "site_no": "415728093422702",
+   "station_nm": "083N25W36ACCC       1991USGS WC-23-16",
+   "lat": 41.95776375,
+   "lon": -93.7077216,
+   "distance_km": 10.28
+  },
+  {
+   "site_no": "415747093430101",
+   "station_nm": "083N25W36BBCB       1991USGS WC-16-6",
+   "lat": 41.9630414,
+   "lon": -93.7171664,
+   "distance_km": 10.36
+  },
+  {
+   "site_no": "415747093430102",
+   "station_nm": "083N25W36BBCB       1991USGS WC-16-16",
+   "lat": 41.9630414,
+   "lon": -93.7171664,
+   "distance_km": 10.36
+  },
+  {
+   "site_no": "420145093300901",
+   "station_nm": "083N23W03ADD  02632 1946",
+   "lat": 42.0291539,
+   "lon": -93.5027137,
+   "distance_km": 10.51
+  },
+  {
+   "site_no": "415728093424401",
+   "station_nm": "083N25W36BDCC       1991USGS WC-20-9",
+   "lat": 41.9577637,
+   "lon": -93.712444,
+   "distance_km": 10.53
+  },
+  {
+   "site_no": "415728093424402",
+   "station_nm": "083N25W36BDCC       1991USGS WC-20-16",
+   "lat": 41.9577637,
+   "lon": -93.712444,
+   "distance_km": 10.53
+  },
+  {
+   "site_no": "420628093332301",
+   "station_nm": "084N23W05CC   19770 1967IA Highway Comm I-35 1",
+   "lat": 42.1077634,
+   "lon": -93.5566038,
+   "distance_km": 10.56
+  },
+  {
+   "site_no": "420249093301201",
+   "station_nm": "084N23W34AA   01512 1941Story County Home 1",
+   "lat": 42.0469315,
+   "lon": -93.5035469,
+   "distance_km": 10.61
+  },
+  {
+   "site_no": "415729093425401",
+   "station_nm": "083N25W36BCDD       1991USGS WC-21-6",
+   "lat": 41.95804147,
+   "lon": -93.7152219,
+   "distance_km": 10.66
+  },
+  {
+   "site_no": "415729093425402",
+   "station_nm": "083N25W36BCDD       1991USGS WC-21-14",
+   "lat": 41.95804147,
+   "lon": -93.7152219,
+   "distance_km": 10.66
+  },
+  {
+   "site_no": "420046093301001",
+   "station_nm": "083N23W10DAAD 02948 1947",
+   "lat": 42.0127652,
+   "lon": -93.5029916,
+   "distance_km": 10.67
+  },
+  {
+   "site_no": "420444093310701",
+   "station_nm": "084N23W15CCC  02392 1946Milford School 2",
+   "lat": 42.07887539,
+   "lon": -93.5188249,
+   "distance_km": 10.67
+  },
+  {
+   "site_no": "415604093393701",
+   "station_nm": "082N24W08AAA  02528 1946",
+   "lat": 41.93443097,
+   "lon": -93.6604976,
+   "distance_km": 10.92
+  },
+  {
+   "site_no": "420120093294401",
+   "station_nm": "083N23W02CDC  03106 1947",
+   "lat": 42.0222096,
+   "lon": -93.495769,
+   "distance_km": 11.12
+  },
+  {
+   "site_no": "415616093335901",
+   "station_nm": "082N23W06DCDA       1992USGS SR-2-14",
+   "lat": 41.937765,
+   "lon": -93.5666052,
+   "distance_km": 11.52
+  },
+  {
+   "site_no": "415616093335902",
+   "station_nm": "082N23W06DCDA       1992USGS SR-2-32",
+   "lat": 41.937765,
+   "lon": -93.5666052,
+   "distance_km": 11.52
+  },
+  {
+   "site_no": "415616093335903",
+   "station_nm": "082N23W06DCDA       1992USGS SR-2-A",
+   "lat": 41.937765,
+   "lon": -93.5666052,
+   "distance_km": 11.52
+  },
+  {
+   "site_no": "415616093335904",
+   "station_nm": "082N23W06DCDA       1992USGS SR-2-B",
+   "lat": 41.937765,
+   "lon": -93.5666052,
+   "distance_km": 11.52
+  },
+  {
+   "site_no": "415616093335905",
+   "station_nm": "082N23W06DCDA       1992USGS SR-2-C",
+   "lat": 41.937765,
+   "lon": -93.5666052,
+   "distance_km": 11.52
+  },
+  {
+   "site_no": "415616093335906",
+   "station_nm": "082N23W06DCDA       1992USGS SR-2-D",
+   "lat": 41.937765,
+   "lon": -93.5666052,
+   "distance_km": 11.52
+  },
+  {
+   "site_no": "415616093335907",
+   "station_nm": "082N23W06DCDA       1992USGS SR-2-E",
+   "lat": 41.937765,
+   "lon": -93.5666052,
+   "distance_km": 11.52
+  },
+  {
+   "site_no": "415616093335908",
+   "station_nm": "082N23W06DCDA       1992USGS SR-2-F",
+   "lat": 41.937765,
+   "lon": -93.5666052,
+   "distance_km": 11.52
+  },
+  {
+   "site_no": "415621093333901",
+   "station_nm": "082N23W06DDAA       1992USGS SR-4-10",
+   "lat": 41.9391539,
+   "lon": -93.5610495,
+   "distance_km": 11.6
+  },
+  {
+   "site_no": "415621093333902",
+   "station_nm": "082N23W06DDAA       1992USGS SR-4-28",
+   "lat": 41.9391539,
+   "lon": -93.5610495,
+   "distance_km": 11.6
+  },
+  {
+   "site_no": "415610093335901",
+   "station_nm": "082N23W06DCDD       1992USGS SR-1-12",
+   "lat": 41.9360983,
+   "lon": -93.5666052,
+   "distance_km": 11.68
+  },
+  {
+   "site_no": "415610093335902",
+   "station_nm": "082N23W06DCDD       1992USGS SR-1-33",
+   "lat": 41.9360983,
+   "lon": -93.5666052,
+   "distance_km": 11.68
+  },
+  {
+   "site_no": "415610093335903",
+   "station_nm": "082N23W06DCDD       1992USGS SR-1-A",
+   "lat": 41.9360983,
+   "lon": -93.5666052,
+   "distance_km": 11.68
+  },
+  {
+   "site_no": "415610093335904",
+   "station_nm": "082N23W06DCDD       1992USGS SR-1-B",
+   "lat": 41.9360983,
+   "lon": -93.5666052,
+   "distance_km": 11.68
+  },
+  {
+   "site_no": "415610093335905",
+   "station_nm": "082N23W06DCDD       1992USGS SR-1-C",
+   "lat": 41.9360983,
+   "lon": -93.5666052,
+   "distance_km": 11.68
+  },
+  {
+   "site_no": "415610093335906",
+   "station_nm": "082N23W06DCDD       1992USGS SR-1-D",
+   "lat": 41.9360983,
+   "lon": -93.5666052,
+   "distance_km": 11.68
+  },
+  {
+   "site_no": "415610093335907",
+   "station_nm": "082N23W06DCDD       1992USGS SR-1-E",
+   "lat": 41.9360983,
+   "lon": -93.5666052,
+   "distance_km": 11.68
+  },
+  {
+   "site_no": "415605093413001",
+   "station_nm": "082N24W07BAB  03744 1949",
+   "lat": 41.9347085,
+   "lon": -93.6918877,
+   "distance_km": 11.77
+  },
+  {
+   "site_no": "415623093331701",
+   "station_nm": "082N23W05DBB        1994USGS SD-3",
+   "lat": 41.9397095,
+   "lon": -93.5549381,
+   "distance_km": 11.8
+  },
+  {
+   "site_no": "415622093331701",
+   "station_nm": "082N23W05DBB        1994USGS SD-1",
+   "lat": 41.93943175,
+   "lon": -93.5549381,
+   "distance_km": 11.83
+  },
+  {
+   "site_no": "415622093331702",
+   "station_nm": "082N23W05DBB        1994USGS SD-2",
+   "lat": 41.93943175,
+   "lon": -93.5549381,
+   "distance_km": 11.83
+  },
+  {
+   "site_no": "415611093333901",
+   "station_nm": "082N23W06DDDD       1992USGS SR-3-12",
+   "lat": 41.93637616,
+   "lon": -93.5610495,
+   "distance_km": 11.87
+  },
+  {
+   "site_no": "415611093333902",
+   "station_nm": "082N23W06DDDD       1992USGS SR-3-28",
+   "lat": 41.93637616,
+   "lon": -93.5610495,
+   "distance_km": 11.87
+  },
+  {
+   "site_no": "415621093331601",
+   "station_nm": "082N23W05CDBB       1992USGS SR-6-8",
+   "lat": 41.93915398,
+   "lon": -93.5546603,
+   "distance_km": 11.87
+  },
+  {
+   "site_no": "415621093331602",
+   "station_nm": "082N23W05CDBB       1992USGS SR-6-28",
+   "lat": 41.93915398,
+   "lon": -93.5546603,
+   "distance_km": 11.87
+  },
+  {
+   "site_no": "415621093331603",
+   "station_nm": "082N23W05CDBB       1992USGS SR-6-A",
+   "lat": 41.93915398,
+   "lon": -93.5546603,
+   "distance_km": 11.87
+  },
+  {
+   "site_no": "415621093331604",
+   "station_nm": "082N23W05CDBB       1992USGS SR-6-B",
+   "lat": 41.93915398,
+   "lon": -93.5546603,
+   "distance_km": 11.87
+  },
+  {
+   "site_no": "415621093331605",
+   "station_nm": "082N23W05CDBB       1992USGS SR-6-C",
+   "lat": 41.93915398,
+   "lon": -93.5546603,
+   "distance_km": 11.87
+  },
+  {
+   "site_no": "415621093331606",
+   "station_nm": "082N23W05CDBB       1992USGS SR-6-D",
+   "lat": 41.93915398,
+   "lon": -93.5546603,
+   "distance_km": 11.87
+  },
+  {
+   "site_no": "415621093331607",
+   "station_nm": "082N23W05CDBB       1992USGS SR-6-E",
+   "lat": 41.93915398,
+   "lon": -93.5546603,
+   "distance_km": 11.87
+  },
+  {
+   "site_no": "415621093331608",
+   "station_nm": "082N23W05CDBB       1992USGS SR-6-F",
+   "lat": 41.93915398,
+   "lon": -93.5546603,
+   "distance_km": 11.87
+  },
+  {
+   "site_no": "415610093331601",
+   "station_nm": "082N23W05CDCC       1992USGS SR-5-8",
+   "lat": 41.9360984,
+   "lon": -93.5546603,
+   "distance_km": 12.16
+  },
+  {
+   "site_no": "415610093331602",
+   "station_nm": "082N23W05CDCC       1992USGS SR-5-30",
+   "lat": 41.9360984,
+   "lon": -93.5546603,
+   "distance_km": 12.16
+  },
+  {
+   "site_no": "415610093331603",
+   "station_nm": "082N23W05CDCC       1992USGS SR-5-A",
+   "lat": 41.9360984,
+   "lon": -93.5546603,
+   "distance_km": 12.16
+  },
+  {
+   "site_no": "415610093331604",
+   "station_nm": "082N23W05CDCC       1992USGS SR-5-B",
+   "lat": 41.9360984,
+   "lon": -93.5546603,
+   "distance_km": 12.16
+  },
+  {
+   "site_no": "415610093331605",
+   "station_nm": "082N23W05CDCC       1992USGS SR-5-C",
+   "lat": 41.9360984,
+   "lon": -93.5546603,
+   "distance_km": 12.16
+  },
+  {
+   "site_no": "415610093331606",
+   "station_nm": "082N23W05CDCC       1992USGS SR-5-D",
+   "lat": 41.9360984,
+   "lon": -93.5546603,
+   "distance_km": 12.16
+  },
+  {
+   "site_no": "415610093331607",
+   "station_nm": "082N23W05CDCC       1992USGS SR-5-E",
+   "lat": 41.9360984,
+   "lon": -93.5546603,
+   "distance_km": 12.16
+  },
+  {
+   "site_no": "415610093331608",
+   "station_nm": "082N23W05CDCC       1992USGS SR-5-F",
+   "lat": 41.9360984,
+   "lon": -93.5546603,
+   "distance_km": 12.16
+  },
+  {
+   "site_no": "415610093331609",
+   "station_nm": "082N23W05CDCC       1992USGS SR-5-G",
+   "lat": 41.9360984,
+   "lon": -93.5546603,
+   "distance_km": 12.16
+  },
+  {
+   "site_no": "415610093331610",
+   "station_nm": "082N23W05CDCC       1992USGS SR-5-H",
+   "lat": 41.9360984,
+   "lon": -93.5546603,
+   "distance_km": 12.16
+  },
+  {
+   "site_no": "420739093330801",
+   "station_nm": "085N23W32CA   19951 1967IA Highway Comm I-35 2",
+   "lat": 42.12748545,
+   "lon": -93.5524368,
+   "distance_km": 12.59
+  },
+  {
+   "site_no": "420301093465101",
+   "station_nm": "084N25W29DDC  01684 1943Jordan School",
+   "lat": 42.05026165,
+   "lon": -93.781057,
+   "distance_km": 12.68
+  },
+  {
+   "site_no": "415500093393601",
+   "station_nm": "082N24W17ADA  05320 1952",
+   "lat": 41.9166533,
+   "lon": -93.6602198,
+   "distance_km": 12.85
+  },
+  {
+   "site_no": "420226093281601",
+   "station_nm": "084N23W36DBB  03586 1947",
+   "lat": 42.0405427,
+   "lon": -93.4713236,
+   "distance_km": 13.16
+  },
+  {
+   "site_no": "420131093274301",
+   "station_nm": "083N22W06CCB",
+   "lat": 42.0252651,
+   "lon": -93.4621567,
+   "distance_km": 13.87
+  },
+  {
+   "site_no": "420129093273701",
+   "station_nm": "083N22W06CDBD 22721 1971Nevada 4",
+   "lat": 42.02498737,
+   "lon": -93.4593788,
+   "distance_km": 14.1
+  },
+  {
+   "site_no": "415514093323001",
+   "station_nm": "82N23W17AAA 57861",
+   "lat": 41.92055556,
+   "lon": -93.5416667,
+   "distance_km": 14.19
+  },
+  {
+   "site_no": "415505093323001",
+   "station_nm": "82N23W17AAD 57860",
+   "lat": 41.91805556,
+   "lon": -93.5416667,
+   "distance_km": 14.43
+  },
+  {
+   "site_no": "420126093270901",
+   "station_nm": "083N22W06DCB  01988 1945",
+   "lat": 42.02387627,
+   "lon": -93.452712,
+   "distance_km": 14.66
+  },
+  {
+   "site_no": "420118093270901",
+   "station_nm": "083N22W06DCDA 00011 1928Nevada 2",
+   "lat": 42.02415405,
+   "lon": -93.4496563,
+   "distance_km": 14.91
+  },
+  {
+   "site_no": "420139093265701",
+   "station_nm": "083N22W06DAB  04909 1952Nevada 3",
+   "lat": 42.02859844,
+   "lon": -93.4493785,
+   "distance_km": 14.92
+  },
+  {
+   "site_no": "415337093361901",
+   "station_nm": "082N24W23DCDD 32466 1920Huxley Old 1",
+   "lat": 41.8930427,
+   "lon": -93.6054956,
+   "distance_km": 15.36
+  },
+  {
+   "site_no": "420158093263501",
+   "station_nm": "083N22W05BBC  02807",
+   "lat": 42.03276507,
+   "lon": -93.4432671,
+   "distance_km": 15.43
+  },
+  {
+   "site_no": "415329093360801",
+   "station_nm": "082N24W26AAB  03697 1948Huxley 2",
+   "lat": 41.89220939,
+   "lon": -93.6032733,
+   "distance_km": 15.48
+  },
+  {
+   "site_no": "415329093361001",
+   "station_nm": "082N24W26AABA       1973Huxley 3",
+   "lat": 41.89137606,
+   "lon": -93.6029955,
+   "distance_km": 15.58
+  },
+  {
+   "site_no": "415329093361002",
+   "station_nm": "082N24W26AABA 24912 1978Huxley 4",
+   "lat": 41.89137606,
+   "lon": -93.6029955,
+   "distance_km": 15.58
+  },
+  {
+   "site_no": "415357093314301",
+   "station_nm": "082N23W21DBAB       1920Cambridge 1",
+   "lat": 41.89915428,
+   "lon": -93.528826,
+   "distance_km": 16.78
+  },
+  {
+   "site_no": "415357093314101",
+   "station_nm": "082N23W21DBAB       1973Cambridge 2",
+   "lat": 41.89915428,
+   "lon": -93.5282705,
+   "distance_km": 16.81
+  },
+  {
+   "site_no": "415357093314102",
+   "station_nm": "82N23W21DBA 65589 2004",
+   "lat": 41.89916667,
+   "lon": -93.5280556,
+   "distance_km": 16.81
+  },
+  {
+   "site_no": "415301093405801",
+   "station_nm": "082N24W30DBA  30955 1945Slater Test 3",
+   "lat": 41.88359784,
+   "lon": -93.6829985,
+   "distance_km": 16.86
+  },
+  {
+   "site_no": "415301093411301",
+   "station_nm": "082N24W30DBBC 22683 1970Slater 3",
+   "lat": 41.8835978,
+   "lon": -93.6871653,
+   "distance_km": 16.95
+  },
+  {
+   "site_no": "415257093410701",
+   "station_nm": "082N24W30DBC  30956 1945Slater Test 4",
+   "lat": 41.8824867,
+   "lon": -93.6854986,
+   "distance_km": 17.03
+  },
+  {
+   "site_no": "420118093252501",
+   "station_nm": "083N22W09BBB  02518 1946",
+   "lat": 42.02165409,
+   "lon": -93.423822,
+   "distance_km": 17.06
+  },
+  {
+   "site_no": "415256093411301",
+   "station_nm": "082N24W30DBCC 15856 1963Slater 4",
+   "lat": 41.8822089,
+   "lon": -93.6871653,
+   "distance_km": 17.1
+  },
+  {
+   "site_no": "415252093405801",
+   "station_nm": "082N24W30DCA  30957 1945Slater Test 1",
+   "lat": 41.88109786,
+   "lon": -93.6829985,
+   "distance_km": 17.13
+  },
+  {
+   "site_no": "421000093320001",
+   "station_nm": "SY-85/23W-0001 (HM-1)",
+   "lat": 42.16666667,
+   "lon": -93.5333333,
+   "distance_km": 17.16
+  },
+  {
+   "site_no": "421052093351201",
+   "station_nm": "85N24W12DCD 61257 2004",
+   "lat": 42.1811111,
+   "lon": -93.5866667,
+   "distance_km": 17.18
+  },
+  {
+   "site_no": "415253093411301",
+   "station_nm": "082N24W30DCBB       1957Slater 2",
+   "lat": 41.8813756,
+   "lon": -93.6871653,
+   "distance_km": 17.19
+  },
+  {
+   "site_no": "415252093411401",
+   "station_nm": "082N24W30DCBB       1945Slater 1",
+   "lat": 41.8810978,
+   "lon": -93.6874431,
+   "distance_km": 17.23
+  },
+  {
+   "site_no": "415806093491601",
+   "station_nm": "083N26W25DCAA 14285 1963Luther 1",
+   "lat": 41.9677626,
+   "lon": -93.8218923,
+   "distance_km": 17.3
+  },
+  {
+   "site_no": "415244093405801",
+   "station_nm": "082N24W30DCD  30958 1945Slater Test 2",
+   "lat": 41.87887566,
+   "lon": -93.6829985,
+   "distance_km": 17.37
+  },
+  {
+   "site_no": "415804093260901",
+   "station_nm": "083N22W29CDA  02068 1945",
+   "lat": 41.96776549,
+   "lon": -93.4360449,
+   "distance_km": 17.46
+  },
+  {
+   "site_no": "421110093351901",
+   "station_nm": "85N24W12DBA 26786 1982",
+   "lat": 42.1861111,
+   "lon": -93.5886111,
+   "distance_km": 17.69
+  },
+  {
+   "site_no": "421113093351801",
+   "station_nm": "085N24W12DBAB       1931Story City 1",
+   "lat": 42.18692855,
+   "lon": -93.5885487,
+   "distance_km": 17.78
+  },
+  {
+   "site_no": "421110093351401",
+   "station_nm": "085N24W12DBA  02158 1945Story City 2",
+   "lat": 42.18692856,
+   "lon": -93.5879932,
+   "distance_km": 17.79
+  },
+  {
+   "site_no": "415822093253501",
+   "station_nm": "083N22W29ADD  02682",
+   "lat": 41.97276549,
+   "lon": -93.4266,
+   "distance_km": 17.97
+  },
+  {
+   "site_no": "420118093243901",
+   "station_nm": "083N22W09AABB 11919 1960",
+   "lat": 42.0216541,
+   "lon": -93.4110438,
+   "distance_km": 18.11
+  },
+  {
+   "site_no": "420353093504101",
+   "station_nm": "084N26W23CDD  01730 1943",
+   "lat": 42.064705,
+   "lon": -93.8449482,
+   "distance_km": 18.16
+  },
+  {
+   "site_no": "415850093250101",
+   "station_nm": "083N22W21CDD  02765 1947",
+   "lat": 41.98054326,
+   "lon": -93.4171553,
+   "distance_km": 18.43
+  },
+  {
+   "site_no": "421011093300501",
+   "station_nm": "085N23W14CCBB       1930Roland 1",
+   "lat": 42.16970788,
+   "lon": -93.5016013,
+   "distance_km": 18.8
+  },
+  {
+   "site_no": "421013093300101",
+   "station_nm": "085N23W14CBC  02075 1945Roland 4",
+   "lat": 42.17026345,
+   "lon": -93.5004901,
+   "distance_km": 18.91
+  },
+  {
+   "site_no": "421007093290201",
+   "station_nm": "085N23W14DDA  01501 1940Roland 2",
+   "lat": 42.1705412,
+   "lon": -93.5002123,
+   "distance_km": 18.94
+  },
+  {
+   "site_no": "421009093294701",
+   "station_nm": "085N23W14CAA  30962",
+   "lat": 42.16915236,
+   "lon": -93.4966011,
+   "distance_km": 18.99
+  },
+  {
+   "site_no": "421014093295401",
+   "station_nm": "85N23W14CBD 52392",
+   "lat": 42.17055556,
+   "lon": -93.4983333,
+   "distance_km": 19.03
+  },
+  {
+   "site_no": "415942093241501",
+   "station_nm": "083N22W15CCC  02720 1946",
+   "lat": 41.99498768,
+   "lon": -93.404377,
+   "distance_km": 19.04
+  },
+  {
+   "site_no": "420443093242701",
+   "station_nm": "084N22W16DDD  30961 1952",
+   "lat": 42.0785979,
+   "lon": -93.40771,
+   "distance_km": 19.13
+  },
+  {
+   "site_no": "415147093414101",
+   "station_nm": "081N24W06BBAB           Sheldahl",
+   "lat": 41.86304238,
+   "lon": -93.6949434,
+   "distance_km": 19.33
+  },
+  {
+   "site_no": "415147093414102",
+   "station_nm": "081N24W06BBAB       1951Sheldahl 1",
+   "lat": 41.86304238,
+   "lon": -93.6949434,
+   "distance_km": 19.33
+  },
+  {
+   "site_no": "415147093414201",
+   "station_nm": "81N24W6BBA 30980 1988",
+   "lat": 41.86305556,
+   "lon": -93.695,
+   "distance_km": 19.33
+  },
+  {
+   "site_no": "415148093414701",
+   "station_nm": "081N25W01AADA           Sheldahl Consol School",
+   "lat": 41.86332014,
+   "lon": -93.6966101,
+   "distance_km": 19.34
+  },
+  {
+   "site_no": "420204093233901",
+   "station_nm": "083N22W03ABB  02766 1947",
+   "lat": 42.03443175,
+   "lon": -93.3943765,
+   "distance_km": 19.47
+  },
+  {
+   "site_no": "415430093480001",
+   "station_nm": "082N25W18DC   11572 1959",
+   "lat": 41.90831905,
+   "lon": -93.8002249,
+   "distance_km": 19.52
+  },
+  {
+   "site_no": "415849093240801",
+   "station_nm": "083N22W22CCD  03940 1949",
+   "lat": 41.98026549,
+   "lon": -93.4024326,
+   "distance_km": 19.6
+  },
+  {
+   "site_no": "420418093234301",
+   "station_nm": "084N22W22ACCC       1960Fernald 2",
+   "lat": 42.0708202,
+   "lon": -93.3952097,
+   "distance_km": 19.91
+  },
+  {
+   "site_no": "420411093234001",
+   "station_nm": "084N22W22DBBA 08092 1956Fernald 1",
+   "lat": 42.07026469,
+   "lon": -93.3946541,
+   "distance_km": 19.94
+  },
+  {
+   "site_no": "420110093231901",
+   "station_nm": "083N22W10AAD        1945Nevada",
+   "lat": 42.0194319,
+   "lon": -93.3888209,
+   "distance_km": 19.96
+  },
+  {
+   "site_no": "420411093233801",
+   "station_nm": "084N22W22DBB  00925 1938Fernald Consolidated Schl",
+   "lat": 42.0697091,
+   "lon": -93.3940985,
+   "distance_km": 19.97
+  },
+  {
+   "site_no": "415930093522001",
+   "station_nm": "083N26W21AA   05486 1952Ledges State Park",
+   "lat": 41.9916507,
+   "lon": -93.8724496,
+   "distance_km": 20.48
+  },
+  {
+   "site_no": "415926093531201",
+   "station_nm": "083N26W21BBDD 00269 1930Ledges State Park 1",
+   "lat": 41.99053946,
+   "lon": -93.8868946,
+   "distance_km": 21.67
+  },
+  {
+   "site_no": "420349093532501",
+   "station_nm": "084N26W21CCCC 00392 1936",
+   "lat": 42.06359334,
+   "lon": -93.8905054,
+   "distance_km": 21.83
+  },
+  {
+   "site_no": "415954093532801",
+   "station_nm": "083N26W17DAD  03175 1947",
+   "lat": 41.99831709,
+   "lon": -93.8913392,
+   "distance_km": 21.88
+  },
+  {
+   "site_no": "421333093360101",
+   "station_nm": "086N24W25CCCB 16991 1964",
+   "lat": 42.22581668,
+   "lon": -93.6004932,
+   "distance_km": 21.91
+  },
+  {
+   "site_no": "415544093514101",
+   "station_nm": "082N26W10ACCC 05444 1952Iowa State Clg 4-H Camp",
+   "lat": 41.92887386,
+   "lon": -93.8616159,
+   "distance_km": 22.2
+  },
+  {
+   "site_no": "415057093304801",
+   "station_nm": "081N23W10BAA",
+   "lat": 41.84891667,
+   "lon": -93.5136667,
+   "distance_km": 22.32
+  },
+  {
+   "site_no": "415011093330401",
+   "station_nm": "081N23W08CDDA           SWRL 7703",
+   "lat": 41.83638889,
+   "lon": -93.5511111,
+   "distance_km": 22.5
+  },
+  {
+   "site_no": "421417093360701",
+   "station_nm": "086N24W26AAAD 06622 1954Randall 1",
+   "lat": 42.2369276,
+   "lon": -93.6013265,
+   "distance_km": 23.13
+  },
+  {
+   "site_no": "414913093363701",
+   "station_nm": "081N24W23BAAA 17556 1964Alleman 1",
+   "lat": 41.82026527,
+   "lon": -93.6104958,
+   "distance_km": 23.38
+  },
+  {
+   "site_no": "421417093341901",
+   "station_nm": "086N23W30BAAA 17327 1964",
+   "lat": 42.2380392,
+   "lon": -93.5721588,
+   "distance_km": 23.62
+  },
+  {
+   "site_no": "415053093282401",
+   "station_nm": "081N23W12BAA",
+   "lat": 41.84802778,
+   "lon": -93.4741667,
+   "distance_km": 23.99
+  },
+  {
+   "site_no": "421501093393101",
+   "station_nm": "086N24W21BBCC 15043 1961",
+   "lat": 42.2502597,
+   "lon": -93.6588284,
+   "distance_km": 24.61
+  },
+  {
+   "site_no": "415620093541001",
+   "station_nm": "082N26W05CA   03972 1949",
+   "lat": 41.93887337,
+   "lon": -93.9030062,
+   "distance_km": 24.74
+  },
+  {
+   "site_no": "420950093232701",
+   "station_nm": "085N22W22ABA  04737 1951McCallsburg 1",
+   "lat": 42.1647081,
+   "lon": -93.3899312,
+   "distance_km": 24.83
+  },
+  {
+   "site_no": "415205093501601",
+   "station_nm": "082N26W35DBD  01805 1943",
+   "lat": 41.86804147,
+   "lon": -93.8380039,
+   "distance_km": 24.9
+  },
+  {
+   "site_no": "421007093233101",
+   "station_nm": "085N22W15DCAC       1973McCallsburg 2",
+   "lat": 42.16859695,
+   "lon": -93.3921535,
+   "distance_km": 24.95
+  },
+  {
+   "site_no": "415305093235901",
+   "station_nm": "082N22W27CAB        1978Maxwell 3",
+   "lat": 41.88471008,
+   "lon": -93.3999324,
+   "distance_km": 24.96
+  },
+  {
+   "site_no": "414821093391201",
+   "station_nm": "081N24W28BBA  05090 1951",
+   "lat": 41.80582075,
+   "lon": -93.653553,
+   "distance_km": 25.0
+  },
+  {
+   "site_no": "415307093234701",
+   "station_nm": "082N22W27BDD  03694 1946Maxwell 2",
+   "lat": 41.8852656,
+   "lon": -93.3979879,
+   "distance_km": 25.04
+  },
+  {
+   "site_no": "415307093235201",
+   "station_nm": "082N22W27BDD        1919Maxwell 1",
+   "lat": 41.8852656,
+   "lon": -93.3979879,
+   "distance_km": 25.04
+  },
+  {
+   "site_no": "414817093361701",
+   "station_nm": "081N24W26AABC 43180 1996Alleman 3",
+   "lat": 41.8047098,
+   "lon": -93.60494,
+   "distance_km": 25.14
+  },
+  {
+   "site_no": "414816093361701",
+   "station_nm": "081N24W26AABC 35285 1975Alleman 2",
+   "lat": 41.804432,
+   "lon": -93.60494,
+   "distance_km": 25.17
+  },
+  {
+   "site_no": "420158093562001",
+   "station_nm": "083N27W01ABCA 41167 1976Ogden 5",
+   "lat": 42.03276018,
+   "lon": -93.9391185,
+   "distance_km": 25.53
+  },
+  {
+   "site_no": "420119093191501",
+   "station_nm": "083N21W05CDD  03937 1949",
+   "lat": 42.0219319,
+   "lon": -93.3210407,
+   "distance_km": 25.54
+  },
+  {
+   "site_no": "420151093562401",
+   "station_nm": "083N27W01ACBC       1957Ogden 4",
+   "lat": 42.03081577,
+   "lon": -93.9402297,
+   "distance_km": 25.62
+  },
+  {
+   "site_no": "420156093562401",
+   "station_nm": "083N27W01ABCC       1956Ogden 3",
+   "lat": 42.0322046,
+   "lon": -93.9402296,
+   "distance_km": 25.62
+  },
+  {
+   "site_no": "420156093562402",
+   "station_nm": "083N27W01ABCC       1985Ogden 3A",
+   "lat": 42.0322046,
+   "lon": -93.9402296,
+   "distance_km": 25.62
+  },
+  {
+   "site_no": "420445093560601",
+   "station_nm": "084N27W13DDCB       1940Boone 17",
+   "lat": 42.07914795,
+   "lon": -93.9352292,
+   "distance_km": 25.79
+  },
+  {
+   "site_no": "415545093205401",
+   "station_nm": "082N22W12ADD  02164 1945",
+   "lat": 41.92915448,
+   "lon": -93.3485417,
+   "distance_km": 25.83
+  },
+  {
+   "site_no": "420443093561001",
+   "station_nm": "84N27W13DDC 37669",
+   "lat": 42.0786111,
+   "lon": -93.9361111,
+   "distance_km": 25.85
+  },
+  {
+   "site_no": "420444093560901",
+   "station_nm": "084N27W13DCDA       1966Boone 21",
+   "lat": 42.07887017,
+   "lon": -93.9360626,
+   "distance_km": 25.85
+  },
+  {
+   "site_no": "420447093560701",
+   "station_nm": "084N27W13DDBC       1979Boone 23",
+   "lat": 42.07970349,
+   "lon": -93.9360626,
+   "distance_km": 25.87
+  },
+  {
+   "site_no": "420442093561101",
+   "station_nm": "084N27W13DCCC       1971Boone 22",
+   "lat": 42.0783146,
+   "lon": -93.9366181,
+   "distance_km": 25.88
+  },
+  {
+   "site_no": "420449093561001",
+   "station_nm": "84N27W13DCA 53711 1999",
+   "lat": 42.08027778,
+   "lon": -93.9361111,
+   "distance_km": 25.88
+  },
+  {
+   "site_no": "420443093560801",
+   "station_nm": "084N27W13DCDD       1931Boone 15",
+   "lat": 42.07859239,
+   "lon": -93.9366181,
+   "distance_km": 25.89
+  },
+  {
+   "site_no": "420442093561201",
+   "station_nm": "084N27W13DCDD       1929Boone 12",
+   "lat": 42.0783146,
+   "lon": -93.9368959,
+   "distance_km": 25.9
+  },
+  {
+   "site_no": "420446093561101",
+   "station_nm": "084N27W13DCDA       1929Boone 13",
+   "lat": 42.0794257,
+   "lon": -93.9366181,
+   "distance_km": 25.9
+  },
+  {
+   "site_no": "420445093561401",
+   "station_nm": "084N27W13DCDA       1931Boone 16",
+   "lat": 42.0791479,
+   "lon": -93.9368959,
+   "distance_km": 25.92
+  },
+  {
+   "site_no": "420449093560901",
+   "station_nm": "084N27W13DCAD       1940Boone 18",
+   "lat": 42.080259,
+   "lon": -93.9366181,
+   "distance_km": 25.92
+  },
+  {
+   "site_no": "420446093561301",
+   "station_nm": "84N27W13DCD 56973 2003",
+   "lat": 42.07944444,
+   "lon": -93.9369444,
+   "distance_km": 25.93
+  },
+  {
+   "site_no": "420451093561301",
+   "station_nm": "084N27W13DCAA       1940Boone 20",
+   "lat": 42.0813701,
+   "lon": -93.9371737,
+   "distance_km": 26.0
+  },
+  {
+   "site_no": "420453093561401",
+   "station_nm": "084N27W13DCAA       1940Boone 19",
+   "lat": 42.08137009,
+   "lon": -93.9374515,
+   "distance_km": 26.02
+  },
+  {
+   "site_no": "420455093561501",
+   "station_nm": "84N27W13DBD 48633",
+   "lat": 42.08194444,
+   "lon": -93.9375,
+   "distance_km": 26.04
+  },
+  {
+   "site_no": "420457093561501",
+   "station_nm": "84N27W13DBD 48634",
+   "lat": 42.0825,
+   "lon": -93.9375,
+   "distance_km": 26.05
+  },
+  {
+   "site_no": "420459093561701",
+   "station_nm": "84N27W13DBD 48635",
+   "lat": 42.08305556,
+   "lon": -93.9380556,
+   "distance_km": 26.11
+  },
+  {
+   "site_no": "420103093184901",
+   "station_nm": "083N21W08ADB        1915Colo 2",
+   "lat": 42.0174875,
+   "lon": -93.3138182,
+   "distance_km": 26.15
+  },
+  {
+   "site_no": "420152093184101",
+   "station_nm": "083N21W05ADA  02941 1947",
+   "lat": 42.0310985,
+   "lon": -93.3115959,
+   "distance_km": 26.3
+  },
+  {
+   "site_no": "415219093520301",
+   "station_nm": "82N26W34BDC 56938",
+   "lat": 41.87194444,
+   "lon": -93.8675,
+   "distance_km": 26.36
+  },
+  {
+   "site_no": "415212093520701",
+   "station_nm": "082N26W34BDCC       1974Madrid 9",
+   "lat": 41.8710968,
+   "lon": -93.8677272,
+   "distance_km": 26.43
+  },
+  {
+   "site_no": "414912093284201",
+   "station_nm": "081N23W24BBA        1997NAWQA Polk County",
+   "lat": 41.82005556,
+   "lon": -93.4783889,
+   "distance_km": 26.5
+  },
+  {
+   "site_no": "415215093520801",
+   "station_nm": "82N26W34BCD 40676 1975",
+   "lat": 41.8708333,
+   "lon": -93.8688889,
+   "distance_km": 26.52
+  },
+  {
+   "site_no": "421603093394101",
+   "station_nm": "086N24W17AAAB 13006 1961",
+   "lat": 42.2674815,
+   "lon": -93.661606,
+   "distance_km": 26.54
+  },
+  {
+   "site_no": "415740093562001",
+   "station_nm": "083N27W36BA   05075 1951",
+   "lat": 41.9610949,
+   "lon": -93.9391186,
+   "distance_km": 26.67
+  },
+  {
+   "site_no": "414717093381001",
+   "station_nm": "081N24W34BBD  04608 1950",
+   "lat": 41.7880431,
+   "lon": -93.6363301,
+   "distance_km": 26.91
+  },
+  {
+   "site_no": "421616093393001",
+   "station_nm": "086N24W09CCBB 13213 1960",
+   "lat": 42.2710926,
+   "lon": -93.6585504,
+   "distance_km": 26.91
+  },
+  {
+   "site_no": "420430093182601",
+   "station_nm": "084N21W21BBC  03946 1946",
+   "lat": 42.0749869,
+   "lon": -93.3074289,
+   "distance_km": 27.1
+  },
+  {
+   "site_no": "415840093182801",
+   "station_nm": "083N21W28BBB  03720 1949",
+   "lat": 41.9777655,
+   "lon": -93.3079847,
+   "distance_km": 27.23
+  },
+  {
+   "site_no": "421517093461201",
+   "station_nm": "086N25W16CDC  08685 1957",
+   "lat": 42.2547021,
+   "lon": -93.7702214,
+   "distance_km": 27.53
+  },
+  {
+   "site_no": "414745093311701",
+   "station_nm": "081N23W28DD         1917Elkhart 1 Old",
+   "lat": 41.7958212,
+   "lon": -93.5216036,
+   "distance_km": 27.54
+  },
+  {
+   "site_no": "414736093314001",
+   "station_nm": "81N23W28DCA 50859 1992",
+   "lat": 41.7933333,
+   "lon": -93.5277778,
+   "distance_km": 27.64
+  },
+  {
+   "site_no": "414738093313201",
+   "station_nm": "081N23W28DCA  03861 1949Elkhart 1",
+   "lat": 41.79304345,
+   "lon": -93.527715,
+   "distance_km": 27.67
+  },
+  {
+   "site_no": "414738093313601",
+   "station_nm": "081N23W28DCD  18644 1966Elkhart 2",
+   "lat": 41.79248789,
+   "lon": -93.5268816,
+   "distance_km": 27.75
+  },
+  {
+   "site_no": "421148093525101",
+   "station_nm": "085N26W04DC   10466 1958",
+   "lat": 42.1966459,
+   "lon": -93.8810597,
+   "distance_km": 27.79
+  },
+  {
+   "site_no": "421659093390201",
+   "station_nm": "086N24W04CDDB 17795 1965",
+   "lat": 42.2830369,
+   "lon": -93.6507722,
+   "distance_km": 28.19
+  },
+  {
+   "site_no": "415758093175301",
+   "station_nm": "083N21W28DCC  02500 1946",
+   "lat": 41.96609889,
+   "lon": -93.2982621,
+   "distance_km": 28.32
+  },
+  {
+   "site_no": "415704093181301",
+   "station_nm": "083N21W33CCDD 04196 1949",
+   "lat": 41.9510989,
+   "lon": -93.3038179,
+   "distance_km": 28.35
+  },
+  {
+   "site_no": "420119093170901",
+   "station_nm": "083N21W03CCD  02343 1946",
+   "lat": 42.02193196,
+   "lon": -93.2860395,
+   "distance_km": 28.43
+  },
+  {
+   "site_no": "421720093371801",
+   "station_nm": "086N24W03DAA  08219 1957",
+   "lat": 42.2888706,
+   "lon": -93.6218822,
+   "distance_km": 28.79
+  },
+  {
+   "site_no": "414640093424201",
+   "station_nm": "081N25W36CDCC 56834     Polk City 5",
+   "lat": 41.7777652,
+   "lon": -93.7118885,
+   "distance_km": 28.85
+  },
+  {
+   "site_no": "414634093423601",
+   "station_nm": "081N25W01BABA       1978Polk City 3",
+   "lat": 41.77609857,
+   "lon": -93.7102218,
+   "distance_km": 29.0
+  },
+  {
+   "site_no": "421608093463701",
+   "station_nm": "086N25W08DDD  08506 1957",
+   "lat": 42.2688683,
+   "lon": -93.7771659,
+   "distance_km": 29.2
+  },
+  {
+   "site_no": "414627093424301",
+   "station_nm": "081N25W01BACB       1967Polk City 2",
+   "lat": 41.7741541,
+   "lon": -93.7121663,
+   "distance_km": 29.25
+  },
+  {
+   "site_no": "414627093424302",
+   "station_nm": "081N25W01BACB       1980Polk City 4",
+   "lat": 41.7741541,
+   "lon": -93.7121663,
+   "distance_km": 29.25
+  },
+  {
+   "site_no": "414625093424301",
+   "station_nm": "081N25W01BACC       1951Polk City 1",
+   "lat": 41.77359859,
+   "lon": -93.7121663,
+   "distance_km": 29.31
+  },
+  {
+   "site_no": "415928093164401",
+   "station_nm": "083N21W22ABC  02111 1945",
+   "lat": 41.99109887,
+   "lon": -93.2790948,
+   "distance_km": 29.31
+  },
+  {
+   "site_no": "420134093162201",
+   "station_nm": "083N21W03DAD  02631 1946",
+   "lat": 42.02609859,
+   "lon": -93.2729834,
+   "distance_km": 29.49
+  }
+ ],
+ "selected": null,
+ "daily_values": null
+}

@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+numpy
+pandas
+httpx
+earthengine-api
+torch
+pydantic
+pytest
+python-dotenv
+
+scikit-learn
+scipy
+ollama

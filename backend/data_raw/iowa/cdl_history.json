@@ -1,0 +1,240 @@
+{
+ "point_albers_5070": [
+  188506.24,
+  2107590.41
+ ],
+ "grid_spacing_m": 300.0,
+ "center_crop": {
+  "2008": "Developed/Open Space",
+  "2009": "Developed/Open Space",
+  "2010": "Corn",
+  "2011": "Soybeans",
+  "2012": "Corn",
+  "2013": "Soybeans",
+  "2014": "Corn",
+  "2015": "Soybeans",
+  "2016": "Corn",
+  "2017": "Soybeans",
+  "2018": "Corn",
+  "2019": "Soybeans",
+  "2020": "Corn",
+  "2021": "Soybeans",
+  "2022": "Corn",
+  "2023": "Soybeans",
+  "2024": "Corn"
+ },
+ "dominant_3x3": {
+  "2008": "Corn",
+  "2009": "Soybeans",
+  "2010": "Corn",
+  "2011": "Soybeans",
+  "2012": "Corn",
+  "2013": "Soybeans",
+  "2014": "Corn",
+  "2015": "Soybeans",
+  "2016": "Corn",
+  "2017": "Soybeans",
+  "2018": "Corn",
+  "2019": "Soybeans",
+  "2020": "Corn",
+  "2021": "Soybeans",
+  "2022": "Corn",
+  "2023": "Soybeans",
+  "2024": "Corn"
+ },
+ "grid_order": "row-major, north to south, west to east; index 4 = center",
+ "grid": {
+  "2008": [
+   "Corn",
+   "Corn",
+   "Corn",
+   "Developed/Open Space",
+   "Developed/Open Space",
+   "Developed/Open Space",
+   "Corn",
+   "Corn",
+   "Corn"
+  ],
+  "2009": [
+   "Soybeans",
+   "Soybeans",
+   "Soybeans",
+   "Developed/Open Space",
+   "Developed/Open Space",
+   "Soybeans",
+   "Soybeans",
+   "Soybeans",
+   "Soybeans"
+  ],
+  "2010": [
+   "Corn",
+   "Corn",
+   "Corn",
+   "Corn",
+   "Corn",
+   "Corn",
+   "Corn",
+   "Corn",
+   "Corn"
+  ],
+  "2011": [
+   "Corn",
+   "Corn",
+   "Soybeans",
+   "Soybeans",
+   "Soybeans",
+   "Soybeans",
+   "Soybeans",
+   "Soybeans",
+   "Soybeans"
+  ],
+  "2012": [
+   "Corn",
+   "Corn",
+   "Corn",
+   "Corn",
+   "Corn",
+   "Corn",
+   "Corn",
+   "Corn",
+   "Corn"
+  ],
+  "2013": [
+   "Corn",
+   "Corn",
+   "Soybeans",
+   "Soybeans",
+   "Soybeans",
+   "Soybeans",
+   "Soybeans",
+   "Soybeans",
+   "Soybeans"
+  ],
+  "2014": [
+   "Soybeans",
+   "Soybeans",
+   "Corn",
+   "Corn",
+   "Corn",
+   "Corn",
+   "Corn",
+   "Corn",
+   "Corn"
+  ],
+  "2015": [
+   "Corn",
+   "Corn",
+   "Soybeans",
+   "Soybeans",
+   "Soybeans",
+   "Soybeans",
+   "Soybeans",
+   "Soybeans",
+   "Soybeans"
+  ],
+  "2016": [
+   "Corn",
+   "Corn",
+   "Corn",
+   "Corn",
+   "Corn",
+   "Corn",
+   "Corn",
+   "Corn",
+   "Corn"
+  ],
+  "2017": [
+   "Corn",
+   "Corn",
+   "Soybeans",
+   "Soybeans",
+   "Soybeans",
+   "Soybeans",
+   "Soybeans",
+   "Soybeans",
+   "Soybeans"
+  ],
+  "2018": [
+   "Soybeans",
+   "Corn",
+   "Corn",
+   "Corn",
+   "Corn",
+   "Corn",
+   "Corn",
+   "Corn",
+   "Corn"
+  ],
+  "2019": [
+   "Soybeans",
+   "Soybeans",
+   "Soybeans",
+   "Soybeans",
+   "Soybeans",
+   "Soybeans",
+   "Soybeans",
+   "Soybeans",
+   "Soybeans"
+  ],
+  "2020": [
+   "Corn",
+   "Corn",
+   "Corn",
+   "Corn",
+   "Corn",
+   "Corn",
+   "Corn",
+   "Corn",
+   "Corn"
+  ],
+  "2021": [
+   "Soybeans",
+   "Soybeans",
+   "Soybeans",
+   "Soybeans",
+   "Soybeans",
+   "Soybeans",
+   "Soybeans",
+   "Soybeans",
+   "Soybeans"
+  ],
+  "2022": [
+   "Corn",
+   "Corn",
+   "Corn",
+   "Corn",
+   "Corn",
+   "Corn",
+   "Corn",
+   "Corn",
+   "Corn"
+  ],
+  "2023": [
+   "Soybeans",
+   "Soybeans",
+   "Soybeans",
+   "Soybeans",
+   "Soybeans",
+   "Soybeans",
+   "Soybeans",
+   "Soybeans",
+   "Soybeans"
+  ],
+  "2024": [
+   "Corn",
+   "Corn",
+   "Corn",
+   "Corn",
+   "Corn",
+   "Corn",
+   "Corn",
+   "Corn",
+   "Corn"
+  ]
+ },
+ "errors": [],
+ "raw_sample": {
+  "year": 2008,
+  "text": "<ns1:GetCDLValueResponse xmlns:ns1=\"http://cropscape.csiss.gmu.edu/CDLService/\"><Result>{x: 188206.24, y: 2107890.41, value: 1, category: \"Corn\", color: \"#FFD400\"}</Result></ns1:GetCDLValueResponse>"
+ }
+}

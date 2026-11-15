@@ -1,0 +1,103 @@
+# FieldTwin
+
+**A NASA-data digital twin of your field, to compare crop rotations under a changing climate.**
+NASA Space Apps Challenge 2026 entry for **"Field Shift: Adapting Farms with NASA Data"**.
+
+> FieldTwin supports decisions; it never replaces farmer or agronomist judgment. It shows ranges, not prescriptions.
+
+## The problem
+Farmers must adapt rotations to warmer, more erratic weather, but evidence is scattered across satellite products, soil surveys and local knowledge. Which seasons is my field bare? When are my crops exposed to heat, frost or water stress? What would a legume cover crop or a lower-water crop change, and how sure are we?
+
+## What FieldTwin does
+Click any point on a map, enter the current rotation and your priorities (water, nitrogen, erosion, soil organic matter, income). FieldTwin builds a biophysical twin of that field and compares at least three rotation strategies (the current one plus alternatives), each with a P10-P90 range, bare-soil calendar, vulnerability months, supporting evidence, data gaps and risks that need local review. Results are shown in an animated 3D field with a year timeline.
+
+## How it works
+1. **NASA and soil data** (POWER daily weather 1995-2024, POWER climatology/soil wetness, SoilGrids, SSURGO, CDL history) are fetched with timeouts and cached; a bundled demo works fully offline.
+2. **Biophysical digital twin** (daily, Python/numpy): FAO-56 single-Kc soil water balance, GDD phenology, stress days and bare-soil days, RUSLE-lite erosion, nitrogen balance with legume fixation, soil organic matter index.
+3. **Strategies and ensembles**: the current rotation plus generated alternatives (legume + winter cereal double crop, lower-water crop swap, legume cover crop) are run over 30 historic weather years and warming scenarios (+1.5 C, +2.5 C) to give P10 / P50 / P90 per metric.
+4. **PyTorch emulator** trained on 4,000 twin runs gives instant what-ifs (sowing shift, irrigation, crop swap) with **split-conformal 90% intervals**; the twin is the fallback.
+5. **Local LLM narrator** (Ollama, `qwen3:4b-instruct-2507-q4_K_M`) receives only the computed JSON; its output is checked for numbers not in the payload and falls back to a template if Ollama is down or the text is not grounded. English and Spanish.
+6. **3D UI** (React, Three.js): crops grow and are harvested along a timeline, soil moisture layers, rain particles, exposed soil when bare.
+
+```mermaid
+flowchart LR
+  A[NASA POWER / SoilGrids / SSURGO / CDL] --> B[Data layer + disk cache + offline demo]
+  G[GEE: SMAP, IMERG, MODIS, SRTM, GRACE - pending credentials] -.-> B
+  B --> C[Digital twin engine: FAO-56, GDD, RUSLE-lite, N, SOM]
+  C --> D[Rotation strategies x 30 yrs x warming -> P10/P50/P90]
+  D --> E[PyTorch emulator + conformal 90% -> /whatif]
+  D --> F[Ollama narrator -> /explain]
+  D --> H[FastAPI /analyze /demo]
+  E --> H
+  F --> H
+  H --> I[React + Three.js UI: Map -> 3D Twin -> Compare -> What-if]
+```
+
+## Datasets actually used
+| Dataset | Use |
+|---|---|
+| NASA POWER daily (AG community, 1995-2024) | Tmax, Tmin, rain, radiation, humidity, wind; ET0 (FAO-56 Penman-Monteith, Hargreaves fallback) |
+| NASA POWER climatology (MERRA-2 GWETROOT/GWETTOP) | Initial soil wetness and twin validation target |
+| ISRIC SoilGrids v2.0 (0-30 cm) | Soil texture/properties (Bajio demo; supporting layer for Iowa) |
+| USDA NRCS SSURGO (Soil Data Access) | Iowa soil: texture, organic matter, available water, K factor, hydrologic group |
+| USDA NASS CDL (CropScape) | Iowa crop history 2008-2024 |
+
+**Honest status:** integration for SMAP SPL4SMGP, GPM IMERG V07, MODIS MOD13Q1 NDVI, SRTM and GRACE is implemented in code through Google Earth Engine, but it is **pending project credentials**. The bundled demos were generated without them (`satellite_available: false`), so those datasets are not used in the reported results. In the demos, soil wetness comes from NASA POWER (MERRA-2) instead of SMAP. USGS NWIS groundwater and FAO GAEZ fetches failed or were skipped and are not used.
+
+## Validation (from the bundled demos)
+The twin's monthly relative soil moisture is compared with NASA POWER root-zone wetness (GWETROOT). This is an indirect check; no yield or field measurements were available.
+
+| Farm | Soil moisture r | MAE |
+|---|---|---|
+| Iowa (41.95, -93.71) | 0.94 | 0.223 |
+| Bajio, Mexico (20.52, -100.81) | 0.65 | 0.098 |
+
+The Iowa MAE shows a level offset even though seasonality tracks well. NDVI vs canopy validation is empty until MODIS credentials are available.
+
+Emulator (held-out test, 4,000 twin runs): R2 between 0.954 and 0.978 across the 9 metrics; conformal 90% interval empirical coverage 0.907 on average (0.88 to 0.922 per metric).
+
+## Example results (P50 from the demo files, not predictions)
+- **Iowa, current soybean > maize**: erosion 13.57 t/ha/yr, bare soil 261 days/yr, yield index 76.7, N balance -7.9 kg/ha/yr. Soybean > rye double crop: erosion 10.18 t/ha/yr, bare soil 158 days, SOM index 67.9 vs 55.9, but yield index 45.9. Soybean > sorghum: irrigation need 53.7 vs 74.5 mm/yr.
+- **Bajio, current maize > beans**: bare soil 276 days/yr, irrigation need 16.7 mm/yr. Beans > oats (double crop) scores lowest (2.0 vs 52.8 for the current rotation) and needs 258.9 mm/yr irrigation. Sorghum > beans cuts irrigation need to 5.4 mm/yr.
+
+## Run it
+Backend (Python 3.11):
+```bash
+cd backend
+python -m venv .venv                                # Windows PowerShell/cmd; Linux/macOS: source .venv/bin/activate
+.venv/Scripts/python.exe -m pip install -r requirements.txt
+cp ../.env.example ../.env                          # optional: GEE_PROJECT=<your project>
+.venv/Scripts/python.exe -m uvicorn app.api:app --port 8000
+```
+Frontend:
+```bash
+cd frontend
+npm install
+npm run dev            # http://localhost:5173
+```
+Narrator (optional): `ollama pull qwen3:4b-instruct-2507-q4_K_M` and keep Ollama running on `localhost:11434`. The pre-trained emulator is in `backend/models/` (retrain with `python -m app.ai.emulator train` from `backend/`). The demo (`GET /demo`) works offline. Tests: `pytest` in `backend/`.
+
+## Limitations
+- Simplified process models (single-Kc water balance, RUSLE-lite, index-based SOM and income); not calibrated against field yields.
+- Satellite layers (SMAP, IMERG, MODIS, SRTM, GRACE) are not yet in the reported results.
+- Validation is against a reanalysis-derived wetness product, not in-situ data; Bajio correlation is moderate (0.65).
+- The emulator is valid only within its training range; the twin is used outside it.
+- LLM text is constrained to twin numbers but can still be imperfect; a local agronomist must review.
+- The crop library covers nine crops.
+
+## Team
+FieldTwin team, NASA Space Apps Challenge 2026:
+
+- Jesús Daniell Hernández Valero
+- Ana Lucia Antunez Martinez
+- Alonso Arath Banda Rico
+- Emilio Antonio Gómez Montes
+
+## Use of AI
+- Code was written with AI coding assistants (Claude and Gemini) under human direction and review.
+- A local LLM (Qwen3 4B via Ollama) writes the narration, constrained to numbers computed by the twin.
+- The PyTorch emulator was trained by us on our own twin simulations.
+- Any AI-generated image or video in our submission carries a visible watermark.
+
+## Data credits
+NASA POWER, ISRIC SoilGrids, USDA NRCS SSURGO, USDA NASS CDL.

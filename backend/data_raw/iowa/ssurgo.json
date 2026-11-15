@@ -1,0 +1,75 @@
+{
+ "query": "\nSELECT mu.mukey, mu.muname, co.cokey, co.compname, co.comppct_r, co.hydgrp, co.drainagecl, ch.kwfact, co.slope_r, ch.hzdept_r, ch.hzdepb_r, ch.om_r, ch.awc_r, ch.claytotal_r, ch.sandtotal_r\nFROM SDA_Get_Mukey_from_intersection_with_WktWgs84('point(-93.71 41.95)') AS m\nINNER JOIN mapunit AS mu ON mu.mukey = m.mukey\nINNER JOIN component AS co ON co.mukey = mu.mukey\nLEFT JOIN chorizon AS ch ON ch.cokey = co.cokey AND ch.hzdept_r = 0\nORDER BY co.comppct_r DESC\n",
+ "result": {
+  "Table": [
+   [
+    "mukey",
+    "muname",
+    "cokey",
+    "compname",
+    "comppct_r",
+    "hydgrp",
+    "drainagecl",
+    "kwfact",
+    "slope_r",
+    "hzdept_r",
+    "hzdepb_r",
+    "om_r",
+    "awc_r",
+    "claytotal_r",
+    "sandtotal_r"
+   ],
+   [
+    "2765522",
+    "Clarion loam, Bemis moraine, 2 to 6 percent slopes",
+    "28627767",
+    "Clarion",
+    "85",
+    "B",
+    "Well drained",
+    ".24",
+    "3",
+    "0",
+    "23",
+    "3.5",
+    "0.21",
+    "21",
+    "45"
+   ],
+   [
+    "2765522",
+    "Clarion loam, Bemis moraine, 2 to 6 percent slopes",
+    "28627765",
+    "Storden",
+    "10",
+    "B",
+    "Well drained",
+    ".28",
+    "8",
+    "0",
+    "20",
+    "2.5",
+    "0.18",
+    "18",
+    "51"
+   ],
+   [
+    "2765522",
+    "Clarion loam, Bemis moraine, 2 to 6 percent slopes",
+    "28627766",
+    "Nicollet",
+    "5",
+    "B/D",
+    "Somewhat poorly drained",
+    ".28",
+    "2",
+    "0",
+    "20",
+    "6",
+    "0.21",
+    "26",
+    "31"
+   ]
+  ]
+ }
+}

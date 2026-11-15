@@ -1,0 +1,106 @@
+{
+  "device": "cuda",
+  "samples": 4000,
+  "epochs": 400,
+  "metrics": [
+    "water_use_mm",
+    "irrigation_need_mm",
+    "yield_index",
+    "n_balance_kg_ha",
+    "erosion_t_ha",
+    "soil_om_index",
+    "income_index",
+    "water_stress_days",
+    "bare_soil_days"
+  ],
+  "test_r2": {
+    "water_use_mm": 0.9683,
+    "irrigation_need_mm": 0.9661,
+    "yield_index": 0.9649,
+    "n_balance_kg_ha": 0.9642,
+    "erosion_t_ha": 0.9784,
+    "soil_om_index": 0.9782,
+    "income_index": 0.9589,
+    "water_stress_days": 0.9622,
+    "bare_soil_days": 0.9544
+  },
+  "test_coverage": {
+    "water_use_mm": 0.88,
+    "irrigation_need_mm": 0.9167,
+    "yield_index": 0.9067,
+    "n_balance_kg_ha": 0.91,
+    "erosion_t_ha": 0.915,
+    "soil_om_index": 0.9133,
+    "income_index": 0.9217,
+    "water_stress_days": 0.89,
+    "bare_soil_days": 0.9117
+  },
+  "mean_test_coverage": 0.9072,
+  "conformal_quantiles": {
+    "water_use_mm": 25.1698,
+    "irrigation_need_mm": 35.9152,
+    "yield_index": 8.2941,
+    "n_balance_kg_ha": 8.4932,
+    "erosion_t_ha": 7.0076,
+    "soil_om_index": 17.851,
+    "income_index": 9.0246,
+    "water_stress_days": 10.1802,
+    "bare_soil_days": 10.8106
+  },
+  "ranges": {
+    "shift": [
+      -30.0,
+      30.0
+    ],
+    "irrigation": [
+      0.0,
+      299.9920654296875
+    ],
+    "warming": [
+      0.00022276074741967022,
+      2.4994630813598633
+    ],
+    "precip": [
+      542.3751831054688,
+      922.9039916992188
+    ],
+    "et0": [
+      896.106201171875,
+      1622.96240234375
+    ],
+    "tmax": [
+      14.899120330810547,
+      26.667089462280273
+    ],
+    "tmin": [
+      3.7567200660705566,
+      11.039087295532227
+    ],
+    "slope": [
+      0.3007153868675232,
+      8.999592781066895
+    ],
+    "sm": [
+      0.13495083153247833,
+      0.41169747710227966
+    ],
+    "awc": [
+      88.20829010009766,
+      269.0762939453125
+    ],
+    "cn": [
+      80.00584411621094,
+      96.0
+    ],
+    "k": [
+      0.15914735198020935,
+      0.31937628984451294
+    ],
+    "wp": [
+      0.10925555229187012,
+      0.27399152517318726
+    ]
+  },
+  "dataset_seconds": 294.0,
+  "total_seconds": 301.9
+}

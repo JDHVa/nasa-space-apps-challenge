@@ -1,0 +1,12 @@
+.venv/
+venv/
+node_modules/
+.env
+backend/cache/
+__pycache__/
+*.pyc
+.pytest_cache/
+frontend/dist/
+NASA_datos/
+uvicorn.log
+vite.log

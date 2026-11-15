@@ -1,0 +1,14 @@
+{
+  "source": "unverified_placeholder",
+  "verified": false,
+  "lat": 20.52,
+  "lon": -100.81,
+  "elevation_m": 2029.5,
+  "slope_deg": 1.0,
+  "sm_surface": 0.19,
+  "sm_rootzone": 0.24,
+  "gpm_annual_mm": 0.0,
+  "modis_ndvi_monthly": [],
+  "grace_lwe_cm": 0.0,
+  "embedding_available": false
+}
