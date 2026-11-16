@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FieldTwin · Team R3V0LUT11ON</title>
+<meta name="description" content="FieldTwin: a NASA-data digital twin of your field to test crop rotations before you plant them. NASA Space Apps Challenge 2026, Field Shift.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#07140F;--bg2:#0B1F17;--card:#10291E;--line:#1E4434;--green:#6EE7A8;--green2:#34D399;--amber:#F5B942;--text:#F2F5F3;--muted:#A9BBB4}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-snap-type:y proximity}
+body{background:var(--bg);color:var(--text);font-family:Inter,system-ui,sans-serif;line-height:1.55;overflow-x:hidden}
+h1,h2,h3,.eyebrow,.big{font-family:"Space Grotesk",sans-serif}
+nav{position:fixed;top:0;left:0;right:0;z-index:20;display:flex;justify-content:space-between;align-items:center;padding:14px 28px;background:rgba(7,20,15,.72);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+nav .logo{font-family:"Space Grotesk";font-weight:700;font-size:20px}
+nav .logo span,.accent{color:var(--green)}
+nav ul{display:flex;gap:20px;list-style:none}
+nav a{color:var(--muted);text-decoration:none;font-size:14px;transition:color .2s}
+nav a:hover,nav a.on{color:var(--green)}
+section{min-height:100vh;padding:110px max(24px,6vw) 70px;display:flex;flex-direction:column;justify-content:center;gap:28px;position:relative;scroll-snap-align:start}
+section:nth-of-type(even){background:var(--bg2)}
+.eyebrow{color:var(--amber);font-weight:700;letter-spacing:.14em;font-size:13px;text-transform:uppercase}
+h1{font-size:clamp(56px,11vw,150px);line-height:.95;letter-spacing:-.03em}
+h2{font-size:clamp(30px,4.4vw,58px);line-height:1.1;letter-spacing:-.02em;max-width:1100px}
+h3{font-size:21px;color:var(--green);margin-bottom:8px}
+.lead{font-size:clamp(18px,2.2vw,26px);color:var(--muted);max-width:900px}
+.team{display:flex;flex-wrap:wrap;gap:10px}
+.chip{border:1px solid var(--line);background:var(--card);padding:8px 14px;border-radius:999px;font-size:14px;color:var(--muted)}
+.chip.t{border-color:var(--amber);color:var(--amber);font-weight:500}
+.grid{display:grid;gap:20px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:24px;transition:transform .3s,border-color .3s}
+.card:hover{transform:translateY(-4px);border-color:var(--green2)}
+.card p{color:var(--muted)}
+.big{font-size:clamp(40px,5vw,64px);font-weight:700;color:var(--green);line-height:1}
+.split{display:grid;grid-template-columns:1.3fr 1fr;gap:40px;align-items:center}
+.shot{width:100%;border-radius:16px;border:1px solid var(--line);box-shadow:0 30px 80px -20px rgba(110,231,168,.25)}
+ul.list{list-style:none;display:flex;flex-direction:column;gap:14px;font-size:19px;color:var(--muted)}
+ul.list li::before{content:"→ ";color:var(--green)}
+.pipe{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;counter-reset:s}
+.pipe .card{position:relative}
+.pipe .card::before{counter-increment:s;content:"0" counter(s);font-family:"Space Grotesk";color:var(--amber);font-size:13px;font-weight:700;display:block;margin-bottom:10px}
+.tags{display:flex;flex-wrap:wrap;gap:10px}
+.tag{padding:8px 14px;border-radius:10px;background:rgba(110,231,168,.1);color:var(--green);font-weight:500;font-size:15px}
+.tag.a{background:rgba(245,185,66,.12);color:var(--amber)}
+.btn{display:inline-block;padding:14px 22px;border-radius:12px;background:var(--green);color:#05261A;font-weight:700;text-decoration:none;transition:transform .2s}
+.btn:hover{transform:scale(1.04)}
+.btn.o{background:transparent;color:var(--green);border:1px solid var(--green)}
+.reveal{opacity:0;transform:translateY(34px);transition:opacity .8s ease,transform .8s ease}
+.reveal.in{opacity:1;transform:none}
+.d1{transition-delay:.1s}.d2{transition-delay:.2s}.d3{transition-delay:.3s}.d4{transition-delay:.4s}.d5{transition-delay:.5s}
+#field{position:absolute;inset:0;z-index:0;opacity:.55}
+#cover>*:not(canvas){position:relative;z-index:1}
+.scroll{position:absolute;bottom:26px;left:50%;transform:translateX(-50%);color:var(--muted);font-size:13px;animation:bob 2s infinite}
+@keyframes bob{50%{transform:translate(-50%,8px)}}
+footer{padding:30px;text-align:center;color:var(--muted);font-size:13px;border-top:1px solid var(--line)}
+@media(max-width:900px){.split{grid-template-columns:1fr}.pipe{grid-template-columns:1fr 1fr}nav ul{display:none}}
+@media(max-width:520px){.pipe{grid-template-columns:1fr}section{padding:96px 16px 60px}}
+@media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<nav>
+<div class="logo">Field<span>Twin</span></div>
+<ul>
+<li><a href="#problem">Problem</a></li>
+<li><a href="#solution">Solution</a></li>
+<li><a href="#how">How</a></li>
+<li><a href="#data">NASA Data</a></li>
+<li><a href="#results">Results</a></li>
+<li><a href="#impact">Impact</a></li>
+</ul>
+</nav>
+
+<section id="cover">
+<canvas id="field"></canvas>
+<p class="eyebrow reveal">NASA Space Apps Challenge 2026 · Field Shift: Adapting Farms with NASA Data</p>
+<h1 class="reveal d1">Field<span class="accent">Twin</span></h1>
+<p class="lead reveal d2">A digital twin of your field, built from NASA data, to test crop rotations before you plant them.</p>
+<div class="team reveal d3">
+<span class="chip t">Team R3V0LUT11ON</span>
+<span class="chip">Jesús Daniell Hernández Valero</span>
+<span class="chip">Ana Lucia Antunez Martinez</span>
+<span class="chip">Alonso Arath Banda Rico</span>
+<span class="chip">Emilio Antonio Gómez Montes</span>
+</div>
+<div class="reveal d4" style="display:flex;gap:12px;flex-wrap:wrap">
+<a class="btn" href="https://github.com/JDHVa/nasa-space-apps-challenge">View the code</a>
+<a class="btn o" href="#problem">See the story</a>
+</div>
+<div class="scroll">scroll ↓</div>
+</section>
+
+<section id="problem">
+<p class="eyebrow reveal">The problem</p>
+<h2 class="reveal d1">Rotations were designed for a climate that no longer exists</h2>
+<div class="grid">
+<div class="card reveal d2"><h3>Weather is shifting</h3><p>Hotter summers, less predictable rain and longer dry spells change when crops are exposed to stress.</p></div>
+<div class="card reveal d3"><h3>Evidence is scattered</h3><p>Satellite data, soil surveys and crop history live in different portals that farmers rarely use.</p></div>
+<div class="card reveal d4"><h3>Single numbers mislead</h3><p>A farmer needs to know when soil is bare, which months are risky, and how sure the estimate is.</p></div>
+</div>
+</section>
+
+<section id="solution">
+<p class="eyebrow reveal">The solution</p>
+<h2 class="reveal d1">Click a field. Compare rotations. See the uncertainty.</h2>
+<div class="split">
+<img class="shot reveal d2" src="assets/1-map.jpg" alt="FieldTwin map screen where the user picks a field, its current rotation and priorities">
+<ul class="list reveal d3">
+<li>Pick any point, the current rotation and your priorities</li>
+<li>The twin simulates the current rotation plus 3 alternatives</li>
+<li>P10–P90 ranges over 30 years and warming scenarios</li>
+<li>Bare-soil calendar, risky months, evidence, gaps and risks</li>
+<li>Animated 3D field, English and Spanish, works offline</li>
+</ul>
+</div>
+</section>
+
+<section id="how">
+<p class="eyebrow reveal">How it works</p>
+<h2 class="reveal d1">Physics first, AI where it earns its place</h2>
+<div class="pipe">
+<div class="card reveal d1"><h3>NASA data</h3><p>NASA POWER daily weather and root-zone wetness, soil surveys, crop history</p></div>
+<div class="card reveal d2"><h3>Digital twin</h3><p>FAO-56 water balance, crop phenology, RUSLE-lite erosion, nitrogen and soil organic matter</p></div>
+<div class="card reveal d3"><h3>Ensemble</h3><p>30 historic years plus +1.5 °C and +2.5 °C warming give P10–P90 ranges</p></div>
+<div class="card reveal d4"><h3>AI emulator</h3><p>PyTorch network on a laptop GPU with 90% conformal intervals for instant what-ifs</p></div>
+<div class="card reveal d5"><h3>Local narrator</h3><p>Ollama LLM that may only cite numbers produced by the twin</p></div>
+</div>
+<div class="tags reveal d3">
+<span class="tag">Emulator test R² 0.954–0.978</span>
+<span class="tag">Conformal coverage 0.907</span>
+<span class="tag a">Runs offline</span>
+</div>
+</section>
+
+<section id="data">
+<p class="eyebrow reveal">NASA data and validation</p>
+<h2 class="reveal d1">Every number traces back to a real dataset</h2>
+<div class="grid">
+<div class="card reveal d1"><h3>Used in this demo</h3><p>NASA POWER daily weather 1995–2024 and climatology, POWER root-zone soil wetness (GWETROOT), USDA SSURGO, ISRIC SoilGrids, USDA Cropland Data Layer.</p></div>
+<div class="card reveal d2"><h3>Ready, pending credentials</h3><p>SMAP, GPM IMERG, MODIS NDVI, SRTM and GRACE through Google Earth Engine. Not used in the reported results.</p></div>
+</div>
+<div class="grid">
+<div class="card reveal d2"><p class="big" data-count="0.94" data-dec="2">0</p><p>Iowa: twin soil moisture vs NASA POWER root-zone wetness (r)</p></div>
+<div class="card reveal d3"><p class="big" data-count="0.65" data-dec="2">0</p><p>Bajío, Mexico: same check (r)</p></div>
+<div class="card reveal d4"><p class="big">2010–24</p><p>Iowa rotation taken from real CDL corn–soybean history</p></div>
+</div>
+</section>
+
+<section id="results">
+<p class="eyebrow reveal">Demo and key results</p>
+<h2 class="reveal d1">Trade-offs made visible</h2>
+<div class="split">
+<div style="display:flex;flex-direction:column;gap:18px">
+<img class="shot reveal d1" src="assets/3-twin-summer.jpg" alt="3D digital twin of the Iowa field in August, covered by soybean">
+<img class="shot reveal d2" src="assets/4-compare.jpg" alt="Strategy comparison screen with four rotation cards and P10 to P90 bands">
+</div>
+<div style="display:flex;flex-direction:column;gap:18px">
+<div class="card reveal d2"><h3>Iowa, USA</h3><p>Adding winter rye cuts erosion from <b>13.6 → 10.2 t/ha/yr</b> and bare soil from <b>261 → 158 days</b>, but the cash-crop yield index falls from 76.7 to 45.9.</p></div>
+<div class="card reveal d3"><h3>Bajío, Mexico</h3><p>A winter oats double crop would need about <b>259 mm/yr</b> of irrigation versus 17 mm today, so it scores 2 against 53 for the current rotation.</p></div>
+<div class="card reveal d4"><h3>Not a single winner</h3><p>FieldTwin shows soil benefits against yield and water costs, so the farmer can decide.</p></div>
+</div>
+</div>
+</section>
+
+<section id="impact">
+<p class="eyebrow reveal">Impact and next steps</p>
+<h2 class="reveal d1">Decision support, never a replacement for the farmer</h2>
+<div class="grid">
+<div class="card reveal d1"><h3>Impact</h3><p>Fast, transparent exploration of adaptive rotations. Local, private and offline-capable.</p></div>
+<div class="card reveal d2"><h3>Next</h3><p>Enable Earth Engine layers, calibrate with field yields and local prices, add crops and regions.</p></div>
+<div class="card reveal d3"><h3>AI disclosure</h3><p>Code written with AI coding assistants under human direction. Local Ollama narrator. Emulator trained by the team. Screenshots are real captures of the app.</p></div>
+</div>
+<div class="reveal d4"><a class="btn" href="https://github.com/JDHVa/nasa-space-apps-challenge">github.com/JDHVa/nasa-space-apps-challenge</a></div>
+</section>
+
+<footer>FieldTwin · Team R3V0LUT11ON · NASA Space Apps Challenge 2026. Not affiliated with or endorsed by NASA.</footer>
+
+<script>
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("in");const c=e.target.querySelector("[data-count]");if(c&&!c.dataset.done){c.dataset.done=1;const t=+c.dataset.count,d=+c.dataset.dec,s=performance.now();const f=n=>{const p=Math.min((n-s)/1200,1);c.textContent=(t*(1-Math.pow(1-p,3))).toFixed(d);if(p<1)requestAnimationFrame(f)};requestAnimationFrame(f)}}}),{threshold:.15});
+document.querySelectorAll(".reveal").forEach(el=>io.observe(el));
+const links=[...document.querySelectorAll("nav a")];
+const so=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)links.forEach(a=>a.classList.toggle("on",a.getAttribute("href")==="#"+e.target.id))}),{threshold:.5});
+document.querySelectorAll("section").forEach(s=>so.observe(s));
+const cv=document.getElementById("field"),cx=cv.getContext("2d");let W,H,rows=[];
+function size(){W=cv.width=cv.offsetWidth*devicePixelRatio;H=cv.height=cv.offsetHeight*devicePixelRatio}
+size();addEventListener("resize",size);
+const still=matchMedia("(prefers-reduced-motion: reduce)").matches;
+function draw(t){cx.clearRect(0,0,W,H);const hz=H*.45;for(let r=0;r<26;r++){const z=r/26,y=hz+Math.pow(z,1.8)*(H-hz),sp=6+z*40,amp=(2+z*10)*devicePixelRatio;cx.strokeStyle=`rgba(110,231,168,${.08+z*.45})`;cx.lineWidth=(.5+z*1.6)*devicePixelRatio;cx.beginPath();for(let x=0;x<=W;x+=sp*devicePixelRatio){const g=Math.sin(x*.004+t*.0012+r*.5)*amp;x===0?cx.moveTo(x,y+g):cx.lineTo(x,y+g)}cx.stroke()}for(let i=0;i<40;i++){const x=(i*137.5%100)/100*W,y=((t*.05*(1+i%3))+i*53)%(H*.6);cx.fillStyle="rgba(169,187,180,.35)";cx.fillRect(x,y,1.2*devicePixelRatio,8*devicePixelRatio)}if(!still)requestAnimationFrame(draw)}
+requestAnimationFrame(draw);
+</script>
+</body>
+</html>
